@@ -1,0 +1,21 @@
+{
+  "iri": "ef59c4ad-0e4f-4e0b-9009-ec555e641ca3",
+  "projectIri": "c15f2c33-85d4-4318-9041-bd0ab2043b97",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "License Document",
+      "cs": "License Document"
+    },
+    "description": {
+      "en": "Data structure for License Document. A legal document giving official permission to do something with a resource.",
+      "cs": "Datová struktura pro License Document. A legal document giving official permission to do something with a resource."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

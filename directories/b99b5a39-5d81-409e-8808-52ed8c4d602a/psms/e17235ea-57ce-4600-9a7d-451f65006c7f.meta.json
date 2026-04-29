@@ -1,0 +1,21 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/distribution",
+  "projectIri": "e17235ea-57ce-4600-9a7d-451f65006c7f",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Distribuce",
+      "en": "Distribution"
+    },
+    "description": {
+      "cs": "Datová struktura pro Distribuce. Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).",
+      "en": "Data structure for Distribution. A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above)."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

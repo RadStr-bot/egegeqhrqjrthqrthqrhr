@@ -1,0 +1,190 @@
+{
+  "operations": [],
+  "resources": {
+    "bdc31268-b2f0-4b1d-b9ca-62ee57272abb": {
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Person. Physical person. ",
+        "cs": "Datová struktura pro Person. Physical person. "
+      },
+      "dataPsmHumanLabel": {
+        "en": "Person",
+        "cs": "Person"
+      },
+      "dataPsmParts": [
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/class-1762017242451-3954-d430-aa66",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/associationEnd-1762017273518-6289-88f5-a192",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/attribute-1762017273543-057a-e690-aede",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/associationEnd-1762017273587-4c1a-c002-ba81",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/attribute-1762017281684-c96d-bcf7-92db",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/attribute-1762017281709-c1b7-e887-85fb",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/associationEnd-1762017281766-615e-87e4-a974",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/classReference-1762017299027-c8f6-f5a9-b40d",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/classReference-1762017303903-7323-a808-b100",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/classReference-1762017323328-4813-6c5d-b3d3"
+      ],
+      "dataPsmRoots": [
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/class-1762017242451-3954-d430-aa66"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/person"
+      ]
+    },
+    "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/class-1762017242451-3954-d430-aa66": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/associationEnd-1762017273518-6289-88f5-a192",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/attribute-1762017273543-057a-e690-aede",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/attribute-1762017281709-c1b7-e887-85fb",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/attribute-1762017281684-c96d-bcf7-92db",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/associationEnd-1762017273587-4c1a-c002-ba81",
+        "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/associationEnd-1762017281766-615e-87e4-a974"
+      ],
+      "dataPsmTechnicalLabel": "person",
+      "iri": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/class-1762017242451-3954-d430-aa66",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "nwjvca56tftmls0pdxn",
+      "dataPsmIsClosed": null,
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/person/class-1762017242451-3954-d430-aa66"
+      ]
+    },
+    "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/associationEnd-1762017273518-6289-88f5-a192": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "identifier",
+      "iri": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/associationEnd-1762017273518-6289-88f5-a192",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmInterpretation": "c1ekru9q4imls0pdxp",
+      "dataPsmIsDematerialize": null,
+      "dataPsmIsReverse": false,
+      "dataPsmPart": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/classReference-1762017299027-c8f6-f5a9-b40d",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/person/associationEnd-1762017273518-6289-88f5-a192"
+      ]
+    },
+    "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/attribute-1762017273543-057a-e690-aede": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "name",
+      "iri": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/attribute-1762017273543-057a-e690-aede",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "aok4kdyiizhmls0pdxp",
+      "dataPsmDatatype": "http://www.w3.org/2001/XMLSchema#string",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/person/attribute-1762017273543-057a-e690-aede"
+      ]
+    },
+    "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/associationEnd-1762017273587-4c1a-c002-ba81": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "contact_point",
+      "iri": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/associationEnd-1762017273587-4c1a-c002-ba81",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmInterpretation": "3qw5qo8hc46mls0pdxp",
+      "dataPsmIsDematerialize": null,
+      "dataPsmIsReverse": false,
+      "dataPsmPart": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/classReference-1762017303903-7323-a808-b100",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/person/associationEnd-1762017273587-4c1a-c002-ba81"
+      ]
+    },
+    "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/attribute-1762017281684-c96d-bcf7-92db": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "family_name",
+      "iri": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/attribute-1762017281684-c96d-bcf7-92db",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "49xsukwh0npmls0pdxo",
+      "dataPsmDatatype": "http://www.w3.org/2001/XMLSchema#string",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/person/attribute-1762017281684-c96d-bcf7-92db"
+      ]
+    },
+    "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/attribute-1762017281709-c1b7-e887-85fb": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "given_name",
+      "iri": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/attribute-1762017281709-c1b7-e887-85fb",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "c9phlxb44qmls0pdxo",
+      "dataPsmDatatype": "http://www.w3.org/2001/XMLSchema#string",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/person/attribute-1762017281709-c1b7-e887-85fb"
+      ]
+    },
+    "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/associationEnd-1762017281766-615e-87e4-a974": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "affiliation",
+      "iri": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/associationEnd-1762017281766-615e-87e4-a974",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmInterpretation": "2yqsvtobn8pmls0pdxp",
+      "dataPsmIsDematerialize": null,
+      "dataPsmIsReverse": false,
+      "dataPsmPart": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/classReference-1762017323328-4813-6c5d-b3d3",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/person/associationEnd-1762017281766-615e-87e4-a974"
+      ]
+    },
+    "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/classReference-1762017299027-c8f6-f5a9-b40d": {
+      "iri": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/classReference-1762017299027-c8f6-f5a9-b40d",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/ClassReference"
+      ],
+      "dataPsmClass": "6f02985e-ebb0-4570-87fb-cbc6ab501ec9/class-1742340169817-84a9-ded1-a656",
+      "dataPsmSpecification": "6f02985e-ebb0-4570-87fb-cbc6ab501ec9",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/person/classReference-1762017299027-c8f6-f5a9-b40d"
+      ]
+    },
+    "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/classReference-1762017303903-7323-a808-b100": {
+      "iri": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/classReference-1762017303903-7323-a808-b100",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/ClassReference"
+      ],
+      "dataPsmClass": "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/class-1742234373952-7a86-df18-a582",
+      "dataPsmSpecification": "77637aa9-df62-4fa7-9b7f-8d59a3e19f08",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/person/classReference-1762017303903-7323-a808-b100"
+      ]
+    },
+    "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/classReference-1762017323328-4813-6c5d-b3d3": {
+      "iri": "bdc31268-b2f0-4b1d-b9ca-62ee57272abb/classReference-1762017323328-4813-6c5d-b3d3",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/ClassReference"
+      ],
+      "dataPsmClass": "cdcae8e7-4886-453b-836a-825cc20c6a3b/class-1744871355397-62d0-acf0-af09",
+      "dataPsmSpecification": "cdcae8e7-4886-453b-836a-825cc20c6a3b",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/person/classReference-1762017323328-4813-6c5d-b3d3"
+      ]
+    }
+  }
+}

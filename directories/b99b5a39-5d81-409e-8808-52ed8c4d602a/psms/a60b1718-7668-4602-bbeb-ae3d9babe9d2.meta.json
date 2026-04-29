@@ -1,0 +1,21 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/alternate-title-type",
+  "projectIri": "a60b1718-7668-4602-bbeb-ae3d9babe9d2",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Alternate title type",
+      "cs": "Alternate title type"
+    },
+    "description": {
+      "en": "Data structure for Alternate title type. Type of alternate title.",
+      "cs": "Datová struktura pro Alternate title type. Type of alternate title."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

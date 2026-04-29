@@ -1,0 +1,21 @@
+{
+  "iri": "954a7c1d-86b2-4f41-a521-e26bfa9a5dbc",
+  "projectIri": "668c60c8-afd9-4bf4-ae79-018da001ff89",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Checksum",
+      "en": "Checksum"
+    },
+    "description": {
+      "cs": "Datová struktura pro Checksum. A value that allows the contents of a file to be authenticated.",
+      "en": "Data structure for Checksum. A value that allows the contents of a file to be authenticated."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

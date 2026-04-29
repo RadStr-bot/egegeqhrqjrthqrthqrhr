@@ -1,0 +1,20 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/semantic-model",
+  "projectIri": "3c4b8b06-ad56-4a82-996a-4799c4e504c7",
+  "types": [
+    "http://dataspecer.com/resources/local/semantic-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "JAKL_CCMM_AP"
+    },
+    "description": {
+      "en": "Semantic model for the profile"
+    },
+    "baseIri": "https://example.com/profile/JAKL_CCMM_AP#"
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

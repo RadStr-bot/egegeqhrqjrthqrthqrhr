@@ -1,0 +1,21 @@
+{
+  "iri": "44797686-95df-4deb-892a-8d998a356551",
+  "projectIri": "26338f86-c845-4dd1-9bc5-30a630a3be9b",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Access rights",
+      "cs": "Access rights"
+    },
+    "description": {
+      "en": "Data structure for Access rights. Access rights to the resource.",
+      "cs": "Datová struktura pro Access rights. Access rights to the resource."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

@@ -1,0 +1,21 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/8408438f-dc24-4a10-818a-ea580471bf09",
+  "projectIri": "b9643e4e-4f10-4952-9add-27f1fdac6383",
+  "types": [
+    "http://dataspecer.com/resources/local/package"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "DataCite"
+    },
+    "description": {
+      "en": "RDF Vocabulary for DataCIte metadata profile."
+    },
+    "importedFromUrl": "https://michalmed.github.io/DataCite/en/",
+    "documentBaseUrl": "https://michalmed.github.io/DataCite/en/"
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

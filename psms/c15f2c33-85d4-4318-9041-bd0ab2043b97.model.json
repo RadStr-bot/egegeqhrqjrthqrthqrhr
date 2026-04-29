@@ -1,0 +1,70 @@
+{
+  "operations": [],
+  "resources": {
+    "ef59c4ad-0e4f-4e0b-9009-ec555e641ca3": {
+      "dataPsmHumanDescription": {
+        "en": "Data structure for License Document. A legal document giving official permission to do something with a resource.",
+        "cs": "Datová struktura pro License Document. A legal document giving official permission to do something with a resource."
+      },
+      "dataPsmHumanLabel": {
+        "en": "License Document",
+        "cs": "License Document"
+      },
+      "dataPsmParts": [
+        "ef59c4ad-0e4f-4e0b-9009-ec555e641ca3/class-1747640270910-1022-e495-9645",
+        "ef59c4ad-0e4f-4e0b-9009-ec555e641ca3/attribute-1747640274972-0915-2fc8-b8d3"
+      ],
+      "dataPsmRoots": [
+        "ef59c4ad-0e4f-4e0b-9009-ec555e641ca3/class-1747640270910-1022-e495-9645"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "ef59c4ad-0e4f-4e0b-9009-ec555e641ca3",
+      "jsonEnforceContext": "no",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/license-document"
+      ]
+    },
+    "ef59c4ad-0e4f-4e0b-9009-ec555e641ca3/class-1747640270910-1022-e495-9645": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "ef59c4ad-0e4f-4e0b-9009-ec555e641ca3/attribute-1747640274972-0915-2fc8-b8d3"
+      ],
+      "dataPsmTechnicalLabel": "license_document",
+      "iri": "ef59c4ad-0e4f-4e0b-9009-ec555e641ca3/class-1747640270910-1022-e495-9645",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "fbmeukt2uktmls0pdxn",
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "OPTIONAL",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/license-document/class-1747640270910-1022-e495-9645"
+      ]
+    },
+    "ef59c4ad-0e4f-4e0b-9009-ec555e641ca3/attribute-1747640274972-0915-2fc8-b8d3": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "label",
+      "iri": "ef59c4ad-0e4f-4e0b-9009-ec555e641ca3/attribute-1747640274972-0915-2fc8-b8d3",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "1qhh5kqtmlwmls0pdxp",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/license-document/attribute-1747640274972-0915-2fc8-b8d3"
+      ]
+    }
+  }
+}

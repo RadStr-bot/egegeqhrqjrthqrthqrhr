@@ -1,0 +1,21 @@
+{
+  "iri": "f22ae852-be4d-4d3f-8ca8-ae3e197c6722",
+  "projectIri": "28d6381c-1bc8-444d-b335-bda51ebcb78d",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Subject scheme",
+      "en": "Subject scheme"
+    },
+    "description": {
+      "cs": "Datová struktura pro Subject scheme. Collection of subjects (keywords, concepts, classification codes) curated by a single source.",
+      "en": "Data structure for Subject scheme. Collection of subjects (keywords, concepts, classification codes) curated by a single source."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

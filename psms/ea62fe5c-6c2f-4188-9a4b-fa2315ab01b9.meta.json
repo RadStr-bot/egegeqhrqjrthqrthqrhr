@@ -1,0 +1,21 @@
+{
+  "iri": "d662daf9-f004-4ff6-ad8d-ac88a949351d",
+  "projectIri": "ea62fe5c-6c2f-4188-9a4b-fa2315ab01b9",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Validation result",
+      "en": "Validation result"
+    },
+    "description": {
+      "cs": "Datová struktura pro Validation result. Class describing the result of validation testing. It may include validation of metadata, data and/or web services accessing the data.",
+      "en": "Data structure for Validation result. Class describing the result of validation testing. It may include validation of metadata, data and/or web services accessing the data."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

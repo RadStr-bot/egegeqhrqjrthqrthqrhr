@@ -1,0 +1,21 @@
+{
+  "iri": "4cb599a6-567f-4f0f-8b39-2b90434d8af9",
+  "projectIri": "3d40799b-83a3-4ccc-bff6-7579c65b7a9d",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Time reference",
+      "cs": "Time reference"
+    },
+    "description": {
+      "en": "Data structure for Time reference. An object representing time reference relevant to some event related to the resource has happened.",
+      "cs": "Datová struktura pro Time reference. An object representing time reference relevant to some event related to the resource has happened."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

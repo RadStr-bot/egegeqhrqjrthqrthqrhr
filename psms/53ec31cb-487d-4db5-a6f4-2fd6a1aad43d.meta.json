@@ -1,0 +1,21 @@
+{
+  "iri": "43791d6e-ab6c-4be0-a800-2d00c7c361b2",
+  "projectIri": "53ec31cb-487d-4db5-a6f4-2fd6a1aad43d",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Time representation",
+      "cs": "Time representation"
+    },
+    "description": {
+      "en": "Data structure for Time representation. Representation of time reference as a temporal interval or instant on which something relevant to the resource has happened.",
+      "cs": "Datová struktura pro Time representation. Representation of time reference as a temporal interval or instant on which something relevant to the resource has happened."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

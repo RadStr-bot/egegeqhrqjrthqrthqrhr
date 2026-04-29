@@ -1,0 +1,21 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/contact-details",
+  "projectIri": "b130fb6a-7625-4a75-bd5b-358ce53d345f",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Contact details",
+      "en": "Contact details"
+    },
+    "description": {
+      "cs": "Datová struktura pro Contact details. Contact details such as telephone, e-mail address etc.",
+      "en": "Data structure for Contact details. Contact details such as telephone, e-mail address etc."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

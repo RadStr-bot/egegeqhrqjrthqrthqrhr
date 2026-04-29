@@ -1,0 +1,21 @@
+{
+  "iri": "7af0c2d7-a6c4-4292-86c2-8c0608dd1027",
+  "projectIri": "224087dc-73a2-4dd4-b01c-390c473ec865",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Data service",
+      "en": "Data service"
+    },
+    "description": {
+      "cs": "Datová struktura pro Data service. Umístění či přístupový bod poskytující operace související s hledáním, přistupem k, či výkonem funkcí na datech či souvisejících zdrojích.",
+      "en": "Data structure for Data service. A collection of operations that provides access to one or more datasets or data processing functions."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

@@ -1,0 +1,21 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/resource-type",
+  "projectIri": "e1e62490-e7b7-40c6-819a-76c6374d3660",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Resource type",
+      "cs": "Resource type"
+    },
+    "description": {
+      "en": "Data structure for Resource type. Type of the resource.",
+      "cs": "Datová struktura pro Resource type. Type of the resource."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

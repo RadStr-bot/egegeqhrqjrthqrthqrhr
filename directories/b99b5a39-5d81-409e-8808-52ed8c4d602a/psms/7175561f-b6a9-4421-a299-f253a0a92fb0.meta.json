@@ -1,0 +1,21 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/application-profile",
+  "projectIri": "7175561f-b6a9-4421-a299-f253a0a92fb0",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Application profile",
+      "en": "Application profile"
+    },
+    "description": {
+      "cs": "Datová struktura pro Application profile. A standard or other specification to which a metadata record conforms.",
+      "en": "Data structure for Application profile. A standard or other specification to which a metadata record conforms."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

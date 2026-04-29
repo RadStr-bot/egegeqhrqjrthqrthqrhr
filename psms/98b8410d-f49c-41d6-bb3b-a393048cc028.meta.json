@@ -1,0 +1,21 @@
+{
+  "iri": "2fa3a794-f2f9-4027-8e33-cdab30313339",
+  "projectIri": "98b8410d-f49c-41d6-bb3b-a393048cc028",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Date type",
+      "cs": "Date type"
+    },
+    "description": {
+      "en": "Data structure for Date type. Type of a date in relation to the resource.",
+      "cs": "Datová struktura pro Date type. Type of a date in relation to the resource."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

@@ -1,0 +1,19 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/visual-model",
+  "projectIri": "dc348daf-3d7a-4f03-b933-3f03f5a66991",
+  "types": [
+    "http://dataspecer.com/resources/local/visual-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "View for JAKL_CCMM_AP"
+    },
+    "description": {
+      "en": "Visual model for the profile"
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

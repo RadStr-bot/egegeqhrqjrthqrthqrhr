@@ -1,0 +1,21 @@
+{
+  "iri": "e367729e-a0cb-414b-afea-4f06c140ab1a",
+  "projectIri": "436d2f51-1596-4c05-a41e-bdf307a6ce0f",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Datová sada",
+      "en": "Dataset"
+    },
+    "description": {
+      "cs": "Datová struktura pro Datová sada. Kolekce dat poskytovaná či řízená jedním zdrojem, která je k dispozici pro přístup či stažení v jednom či více formátech.",
+      "en": "Data structure for Dataset. A collection of data, published or curated by a single source, and available for access or download in one or more representations."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

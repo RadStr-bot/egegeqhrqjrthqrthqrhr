@@ -1,0 +1,21 @@
+{
+  "iri": "73b3e53b-027c-44bf-a763-e9b9a90aadcb",
+  "projectIri": "2eaad6c3-9011-40b5-be4b-7bbf9e298b59",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Resource to Agent Relationship",
+      "en": "Resource to Agent Relationship"
+    },
+    "description": {
+      "cs": "Datová struktura pro Resource to Agent Relationship. An association class for attaching additional information to a relationship between Dataset and Agent.",
+      "en": "Data structure for Resource to Agent Relationship. An association class for attaching additional information to a relationship between Dataset and Agent."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

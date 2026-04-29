@@ -1,0 +1,21 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf",
+  "projectIri": "b99b5a39-5d81-409e-8808-52ed8c4d602a",
+  "types": [
+    "http://dataspecer.com/resources/local/package"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Czech Core Metadata Model"
+    },
+    "description": {
+      "en": "Application profile of Czech Core Metadata Model."
+    },
+    "importedFromUrl": "https://jakub.klímek.com/ccmm/en/",
+    "documentBaseUrl": "https://jakub.klímek.com/ccmm/en/"
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

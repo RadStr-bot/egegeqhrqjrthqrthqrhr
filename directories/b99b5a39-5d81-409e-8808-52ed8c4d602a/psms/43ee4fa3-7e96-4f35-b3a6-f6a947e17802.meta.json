@@ -1,0 +1,21 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/media-type",
+  "projectIri": "43ee4fa3-7e96-4f35-b3a6-f6a947e17802",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Media Type",
+      "en": "Media Type"
+    },
+    "description": {
+      "cs": "Datová struktura pro Media Type. A file format or physical medium.",
+      "en": "Data structure for Media Type. A file format or physical medium."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

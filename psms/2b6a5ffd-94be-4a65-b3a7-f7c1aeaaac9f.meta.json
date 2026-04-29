@@ -1,0 +1,21 @@
+{
+  "iri": "6f02985e-ebb0-4570-87fb-cbc6ab501ec9",
+  "projectIri": "2b6a5ffd-94be-4a65-b3a7-f7c1aeaaac9f",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Identifier",
+      "en": "Identifier"
+    },
+    "description": {
+      "cs": "Datová struktura pro Identifier. This is based on the UN/CEFACT Identifier class.",
+      "en": "Data structure for Identifier. This is based on the UN/CEFACT Identifier class."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

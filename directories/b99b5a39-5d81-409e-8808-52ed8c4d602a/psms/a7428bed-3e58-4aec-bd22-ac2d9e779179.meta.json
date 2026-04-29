@@ -1,0 +1,21 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/resource-relation-type",
+  "projectIri": "a7428bed-3e58-4aec-bd22-ac2d9e779179",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Resource relation type",
+      "cs": "Resource relation type"
+    },
+    "description": {
+      "en": "Data structure for Resource relation type. Type of the relation between the dataset and given resource.",
+      "cs": "Datová struktura pro Resource relation type. Type of the relation between the dataset and given resource."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

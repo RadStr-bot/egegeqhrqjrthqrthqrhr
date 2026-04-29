@@ -1,0 +1,69 @@
+{
+  "operations": [],
+  "resources": {
+    "e0506aa2-ee5f-44e5-bf39-8631798d56ff": {
+      "dataPsmHumanDescription": {
+        "cs": "Datová struktura pro Provenance Statement. Any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation.",
+        "en": "Data structure for Provenance Statement. Any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."
+      },
+      "dataPsmHumanLabel": {
+        "cs": "Provenance Statement",
+        "en": "Provenance Statement"
+      },
+      "dataPsmParts": [
+        "e0506aa2-ee5f-44e5-bf39-8631798d56ff/class-1742288763165-c843-1e73-9f91",
+        "e0506aa2-ee5f-44e5-bf39-8631798d56ff/attribute-1742339973158-a520-504a-83ed"
+      ],
+      "dataPsmRoots": [
+        "e0506aa2-ee5f-44e5-bf39-8631798d56ff/class-1742288763165-c843-1e73-9f91"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "e0506aa2-ee5f-44e5-bf39-8631798d56ff",
+      "jsonEnforceContext": "no",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/provenance-statement"
+      ]
+    },
+    "e0506aa2-ee5f-44e5-bf39-8631798d56ff/class-1742288763165-c843-1e73-9f91": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "e0506aa2-ee5f-44e5-bf39-8631798d56ff/attribute-1742339973158-a520-504a-83ed"
+      ],
+      "dataPsmTechnicalLabel": "provenance_statement",
+      "iri": "e0506aa2-ee5f-44e5-bf39-8631798d56ff/class-1742288763165-c843-1e73-9f91",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "ijkpwpx34mimls0pdxn",
+      "dataPsmIsClosed": null,
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/provenance-statement/class-1742288763165-c843-1e73-9f91"
+      ]
+    },
+    "e0506aa2-ee5f-44e5-bf39-8631798d56ff/attribute-1742339973158-a520-504a-83ed": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "label",
+      "iri": "e0506aa2-ee5f-44e5-bf39-8631798d56ff/attribute-1742339973158-a520-504a-83ed",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "hnluohd4welmls0pdxo",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/provenance-statement/attribute-1742339973158-a520-504a-83ed"
+      ]
+    }
+  }
+}

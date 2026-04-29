@@ -1,0 +1,17 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/37ebe7f3-98f5-4964-9565-2b72312277a6/9ea88673-c82a-4094-b5f6-2c21a72927dd/c50ea9cd-0c7e-4974-9c49-14be2a6a8c1c",
+  "projectIri": "d7dd49e3-660f-406f-b659-6cac97d462e9",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "documentBaseUrl": "https://www.w3.org/2006/vcard/ns",
+    "label": {
+      "en": "ns"
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

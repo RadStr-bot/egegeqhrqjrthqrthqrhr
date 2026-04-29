@@ -1,0 +1,22 @@
+{
+  "xml": {},
+  "data-specification": {
+    "instancesHaveIdentity": "OPTIONAL",
+    "instancesSpecifyTypes": "OPTIONAL",
+    "publicBaseUrl": "https://jakub.xn--klmek-0sa.com/ccmm/",
+    "useGenerators": {
+      "csv": false,
+      "sparql": false,
+      "shacl": false,
+      "shex": false,
+      "openapi": false,
+      "plantUML": false,
+      "jsonExample": false,
+      "json": false
+    }
+  },
+  "json": {
+    "includeContextInExample": false,
+    "jsonLabelLanguage": "en"
+  }
+}

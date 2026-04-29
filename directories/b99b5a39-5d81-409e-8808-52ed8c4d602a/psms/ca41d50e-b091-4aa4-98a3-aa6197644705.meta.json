@@ -1,0 +1,21 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/distribution-data-service",
+  "projectIri": "ca41d50e-b091-4aa4-98a3-aa6197644705",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Distribution - data service",
+      "cs": "Distribution - data service"
+    },
+    "description": {
+      "en": "Data structure for Distribution - data service. Physical embodiment of the dataset distribution as a particular data service. ",
+      "cs": "Datová struktura pro Distribution - data service. Physical embodiment of the dataset distribution as a particular data service. "
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

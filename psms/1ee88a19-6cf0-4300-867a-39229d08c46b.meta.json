@@ -1,0 +1,21 @@
+{
+  "iri": "c9f98e2d-af13-4883-8a42-1d11765de675",
+  "projectIri": "1ee88a19-6cf0-4300-867a-39229d08c46b",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Terms of use",
+      "en": "Terms of use"
+    },
+    "description": {
+      "cs": "Datová struktura pro Terms of use. Terms of use defines overall conditions and rights regarding access and usage  of dataset. ",
+      "en": "Data structure for Terms of use. Terms of use defines overall conditions and rights regarding access and usage  of dataset. "
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

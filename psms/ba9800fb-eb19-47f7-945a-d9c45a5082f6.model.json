@@ -1,0 +1,70 @@
+{
+  "operations": [],
+  "resources": {
+    "d5649373-0499-4f79-bd2d-948c3fa7cdbe": {
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Checksum algorithm. Algorithm used for Checksums.",
+        "cs": "Datová struktura pro Checksum algorithm. Algorithm used for Checksums."
+      },
+      "dataPsmHumanLabel": {
+        "en": "Checksum algorithm",
+        "cs": "Checksum algorithm"
+      },
+      "dataPsmParts": [
+        "d5649373-0499-4f79-bd2d-948c3fa7cdbe/class-1750748737636-4a30-db6d-87b9",
+        "d5649373-0499-4f79-bd2d-948c3fa7cdbe/attribute-1762086480397-b347-ff5a-ab30"
+      ],
+      "dataPsmRoots": [
+        "d5649373-0499-4f79-bd2d-948c3fa7cdbe/class-1750748737636-4a30-db6d-87b9"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "d5649373-0499-4f79-bd2d-948c3fa7cdbe",
+      "jsonEnforceContext": "no",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/checksum-algorithm"
+      ]
+    },
+    "d5649373-0499-4f79-bd2d-948c3fa7cdbe/class-1750748737636-4a30-db6d-87b9": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "d5649373-0499-4f79-bd2d-948c3fa7cdbe/attribute-1762086480397-b347-ff5a-ab30"
+      ],
+      "dataPsmTechnicalLabel": "checksum_algorithm",
+      "iri": "d5649373-0499-4f79-bd2d-948c3fa7cdbe/class-1750748737636-4a30-db6d-87b9",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "p9js7mog3kmls0pdxn",
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/checksum-algorithm/class-1750748737636-4a30-db6d-87b9"
+      ]
+    },
+    "d5649373-0499-4f79-bd2d-948c3fa7cdbe/attribute-1762086480397-b347-ff5a-ab30": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "label",
+      "iri": "d5649373-0499-4f79-bd2d-948c3fa7cdbe/attribute-1762086480397-b347-ff5a-ab30",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "lhzkzbdahylmls0pdxp",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/checksum-algorithm/attribute-1762086480397-b347-ff5a-ab30"
+      ]
+    }
+  }
+}

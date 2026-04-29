@@ -1,0 +1,21 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/documentation",
+  "projectIri": "aed586f3-f15f-4543-b953-7ae4f05a551b",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Documentation",
+      "en": "Documentation"
+    },
+    "description": {
+      "cs": "Datová struktura pro Documentation. A textual resource intended for human consumption that contains information about the data service.",
+      "en": "Data structure for Documentation. A textual resource intended for human consumption that contains information about the data service."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

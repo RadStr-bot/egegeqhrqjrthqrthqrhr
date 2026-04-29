@@ -1,0 +1,70 @@
+{
+  "operations": [],
+  "resources": {
+    "6d33ae3f-35be-4c7d-8b2e-05e15c26d2b1": {
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Location relation type. Relation of the dataset to the resource.",
+        "cs": "Datová struktura pro Location relation type. Relation of the dataset to the resource."
+      },
+      "dataPsmHumanLabel": {
+        "en": "Location relation type",
+        "cs": "Location relation type"
+      },
+      "dataPsmParts": [
+        "6d33ae3f-35be-4c7d-8b2e-05e15c26d2b1/class-1747685228117-d1d5-c203-b159",
+        "6d33ae3f-35be-4c7d-8b2e-05e15c26d2b1/attribute-1747685232243-6b5e-61ae-bc5f"
+      ],
+      "dataPsmRoots": [
+        "6d33ae3f-35be-4c7d-8b2e-05e15c26d2b1/class-1747685228117-d1d5-c203-b159"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "6d33ae3f-35be-4c7d-8b2e-05e15c26d2b1",
+      "jsonEnforceContext": "no",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/location-relation-type"
+      ]
+    },
+    "6d33ae3f-35be-4c7d-8b2e-05e15c26d2b1/class-1747685228117-d1d5-c203-b159": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "6d33ae3f-35be-4c7d-8b2e-05e15c26d2b1/attribute-1747685232243-6b5e-61ae-bc5f"
+      ],
+      "dataPsmTechnicalLabel": "relation_type",
+      "iri": "6d33ae3f-35be-4c7d-8b2e-05e15c26d2b1/class-1747685228117-d1d5-c203-b159",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "807fpe30ynbmls0pdxn",
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/location-relation-type/class-1747685228117-d1d5-c203-b159"
+      ]
+    },
+    "6d33ae3f-35be-4c7d-8b2e-05e15c26d2b1/attribute-1747685232243-6b5e-61ae-bc5f": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "label",
+      "iri": "6d33ae3f-35be-4c7d-8b2e-05e15c26d2b1/attribute-1747685232243-6b5e-61ae-bc5f",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "5pfw8c8flwjmls0pdxp",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/location-relation-type/attribute-1747685232243-6b5e-61ae-bc5f"
+      ]
+    }
+  }
+}

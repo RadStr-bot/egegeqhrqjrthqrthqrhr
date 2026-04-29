@@ -1,0 +1,21 @@
+{
+  "iri": "d7299398-2849-4a37-9689-b12b203df184",
+  "projectIri": "9c6fae09-545f-45ec-94e8-d64d8c591997",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Resource relation type",
+      "cs": "Resource relation type"
+    },
+    "description": {
+      "en": "Data structure for Resource relation type. Type of the relation between the dataset and given resource.",
+      "cs": "Datová struktura pro Resource relation type. Type of the relation between the dataset and given resource."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

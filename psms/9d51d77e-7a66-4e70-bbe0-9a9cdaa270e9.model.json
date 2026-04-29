@@ -1,0 +1,115 @@
+{
+  "operations": [],
+  "resources": {
+    "f0855de4-ec13-4231-b7ed-cd82a2b42966": {
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Time instant. A temporal entity with zero extent or duration.",
+        "cs": "Datová struktura pro Time instant. A temporal entity with zero extent or duration."
+      },
+      "dataPsmHumanLabel": {
+        "en": "Time instant",
+        "cs": "Time instant"
+      },
+      "dataPsmParts": [
+        "f0855de4-ec13-4231-b7ed-cd82a2b42966/class-1750713474658-dd87-9fe9-a4ab",
+        "f0855de4-ec13-4231-b7ed-cd82a2b42966/container-1750760718402-28a0-9682-9762",
+        "f0855de4-ec13-4231-b7ed-cd82a2b42966/attribute-1750760723348-1ba3-b4f8-a3b5",
+        "f0855de4-ec13-4231-b7ed-cd82a2b42966/attribute-1750760723391-ad15-3405-aa50"
+      ],
+      "dataPsmRoots": [
+        "f0855de4-ec13-4231-b7ed-cd82a2b42966/class-1750713474658-dd87-9fe9-a4ab"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "f0855de4-ec13-4231-b7ed-cd82a2b42966",
+      "jsonEnforceContext": "no",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/time-instant"
+      ]
+    },
+    "f0855de4-ec13-4231-b7ed-cd82a2b42966/class-1750713474658-dd87-9fe9-a4ab": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "f0855de4-ec13-4231-b7ed-cd82a2b42966/container-1750760718402-28a0-9682-9762"
+      ],
+      "dataPsmTechnicalLabel": "time_instant",
+      "iri": "f0855de4-ec13-4231-b7ed-cd82a2b42966/class-1750713474658-dd87-9fe9-a4ab",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "g1p4vq1uw88mls0pdxn",
+      "dataPsmIsClosed": null,
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/time-instant/class-1750713474658-dd87-9fe9-a4ab"
+      ]
+    },
+    "f0855de4-ec13-4231-b7ed-cd82a2b42966/container-1750760718402-28a0-9682-9762": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "f0855de4-ec13-4231-b7ed-cd82a2b42966/attribute-1750760723348-1ba3-b4f8-a3b5",
+        "f0855de4-ec13-4231-b7ed-cd82a2b42966/attribute-1750760723391-ad15-3405-aa50"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "iri": "f0855de4-ec13-4231-b7ed-cd82a2b42966/container-1750760718402-28a0-9682-9762",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Container"
+      ],
+      "dataPsmInterpretation": null,
+      "dataPsmCardinality": [
+        1,
+        1
+      ],
+      "dataPsmContainerType": "choice",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/time-instant/container-1750760718402-28a0-9682-9762"
+      ]
+    },
+    "f0855de4-ec13-4231-b7ed-cd82a2b42966/attribute-1750760723348-1ba3-b4f8-a3b5": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "date_time",
+      "iri": "f0855de4-ec13-4231-b7ed-cd82a2b42966/attribute-1750760723348-1ba3-b4f8-a3b5",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "9ty2j6zxe48mls0pdxp",
+      "dataPsmCardinality": [
+        1,
+        1
+      ],
+      "dataPsmDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/time-instant/attribute-1750760723348-1ba3-b4f8-a3b5"
+      ]
+    },
+    "f0855de4-ec13-4231-b7ed-cd82a2b42966/attribute-1750760723391-ad15-3405-aa50": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "date",
+      "iri": "f0855de4-ec13-4231-b7ed-cd82a2b42966/attribute-1750760723391-ad15-3405-aa50",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "l1rtr41500dmls0pdxp",
+      "dataPsmCardinality": [
+        1,
+        1
+      ],
+      "dataPsmDatatype": "http://www.w3.org/2001/XMLSchema#date",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/time-instant/attribute-1750760723391-ad15-3405-aa50"
+      ]
+    }
+  }
+}

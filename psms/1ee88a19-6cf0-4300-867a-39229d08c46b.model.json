@@ -1,0 +1,159 @@
+{
+  "operations": [],
+  "resources": {
+    "c9f98e2d-af13-4883-8a42-1d11765de675": {
+      "dataPsmHumanDescription": {
+        "cs": "Datová struktura pro Terms of use. Terms of use defines overall conditions and rights regarding access and usage  of dataset. ",
+        "en": "Data structure for Terms of use. Terms of use defines overall conditions and rights regarding access and usage  of dataset. "
+      },
+      "dataPsmHumanLabel": {
+        "cs": "Terms of use",
+        "en": "Terms of use"
+      },
+      "dataPsmParts": [
+        "c9f98e2d-af13-4883-8a42-1d11765de675/class-1742235510107-a209-3731-aa0c",
+        "c9f98e2d-af13-4883-8a42-1d11765de675/attribute-1742235525761-8e6c-3dec-99ff",
+        "c9f98e2d-af13-4883-8a42-1d11765de675/associationEnd-1744806781998-a09c-37ce-9a01",
+        "c9f98e2d-af13-4883-8a42-1d11765de675/classReference-1744806986484-f66e-a713-af3e",
+        "c9f98e2d-af13-4883-8a42-1d11765de675/associationEnd-1747640295203-8c2d-9dd6-ae19",
+        "c9f98e2d-af13-4883-8a42-1d11765de675/associationEnd-1747685452899-cbea-5316-b24f",
+        "c9f98e2d-af13-4883-8a42-1d11765de675/classReference-1747685457941-5a40-c17e-a683",
+        "c9f98e2d-af13-4883-8a42-1d11765de675/classReference-1754037821474-df11-9e82-ab63"
+      ],
+      "dataPsmRoots": [
+        "c9f98e2d-af13-4883-8a42-1d11765de675/class-1742235510107-a209-3731-aa0c"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "c9f98e2d-af13-4883-8a42-1d11765de675",
+      "jsonEnforceContext": "no",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/terms-of-use"
+      ]
+    },
+    "c9f98e2d-af13-4883-8a42-1d11765de675/class-1742235510107-a209-3731-aa0c": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "c9f98e2d-af13-4883-8a42-1d11765de675/associationEnd-1747685452899-cbea-5316-b24f",
+        "c9f98e2d-af13-4883-8a42-1d11765de675/associationEnd-1747640295203-8c2d-9dd6-ae19",
+        "c9f98e2d-af13-4883-8a42-1d11765de675/attribute-1742235525761-8e6c-3dec-99ff",
+        "c9f98e2d-af13-4883-8a42-1d11765de675/associationEnd-1744806781998-a09c-37ce-9a01"
+      ],
+      "dataPsmTechnicalLabel": "terms_of_use",
+      "iri": "c9f98e2d-af13-4883-8a42-1d11765de675/class-1742235510107-a209-3731-aa0c",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "8jjyjuem5z7mls0pdxn",
+      "dataPsmIsClosed": null,
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/terms-of-use/class-1742235510107-a209-3731-aa0c"
+      ]
+    },
+    "c9f98e2d-af13-4883-8a42-1d11765de675/attribute-1742235525761-8e6c-3dec-99ff": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "description",
+      "iri": "c9f98e2d-af13-4883-8a42-1d11765de675/attribute-1742235525761-8e6c-3dec-99ff",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "r98agbja3omls0pdxo",
+      "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/terms-of-use/attribute-1742235525761-8e6c-3dec-99ff"
+      ]
+    },
+    "c9f98e2d-af13-4883-8a42-1d11765de675/associationEnd-1744806781998-a09c-37ce-9a01": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "contact_point",
+      "iri": "c9f98e2d-af13-4883-8a42-1d11765de675/associationEnd-1744806781998-a09c-37ce-9a01",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmInterpretation": "l7l2qauawumls0pdxp",
+      "dataPsmIsDematerialize": null,
+      "dataPsmIsReverse": false,
+      "dataPsmPart": "c9f98e2d-af13-4883-8a42-1d11765de675/classReference-1744806986484-f66e-a713-af3e",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/terms-of-use/associationEnd-1744806781998-a09c-37ce-9a01"
+      ]
+    },
+    "c9f98e2d-af13-4883-8a42-1d11765de675/classReference-1744806986484-f66e-a713-af3e": {
+      "iri": "c9f98e2d-af13-4883-8a42-1d11765de675/classReference-1744806986484-f66e-a713-af3e",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/ClassReference"
+      ],
+      "dataPsmClass": "e51f5301-cb72-4be9-9124-ce8c2765f745/or-1744806345469-98ad-4e4d-8c25",
+      "dataPsmSpecification": "e51f5301-cb72-4be9-9124-ce8c2765f745",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/terms-of-use/classReference-1744806986484-f66e-a713-af3e"
+      ]
+    },
+    "c9f98e2d-af13-4883-8a42-1d11765de675/associationEnd-1747640295203-8c2d-9dd6-ae19": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "license",
+      "iri": "c9f98e2d-af13-4883-8a42-1d11765de675/associationEnd-1747640295203-8c2d-9dd6-ae19",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmInterpretation": "5wpqf00w7wimls0pdxp",
+      "dataPsmIsDematerialize": null,
+      "dataPsmIsReverse": false,
+      "dataPsmPart": "c9f98e2d-af13-4883-8a42-1d11765de675/classReference-1754037821474-df11-9e82-ab63",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/terms-of-use/associationEnd-1747640295203-8c2d-9dd6-ae19"
+      ]
+    },
+    "c9f98e2d-af13-4883-8a42-1d11765de675/associationEnd-1747685452899-cbea-5316-b24f": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "access_rights",
+      "iri": "c9f98e2d-af13-4883-8a42-1d11765de675/associationEnd-1747685452899-cbea-5316-b24f",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmInterpretation": "fwgx681vxkmls0pdxp",
+      "dataPsmIsDematerialize": null,
+      "dataPsmIsReverse": false,
+      "dataPsmPart": "c9f98e2d-af13-4883-8a42-1d11765de675/classReference-1747685457941-5a40-c17e-a683",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/terms-of-use/associationEnd-1747685452899-cbea-5316-b24f"
+      ]
+    },
+    "c9f98e2d-af13-4883-8a42-1d11765de675/classReference-1747685457941-5a40-c17e-a683": {
+      "iri": "c9f98e2d-af13-4883-8a42-1d11765de675/classReference-1747685457941-5a40-c17e-a683",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/ClassReference"
+      ],
+      "dataPsmClass": "44797686-95df-4deb-892a-8d998a356551/class-1747685414671-e5e1-7f82-b427",
+      "dataPsmSpecification": "44797686-95df-4deb-892a-8d998a356551",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/terms-of-use/classReference-1747685457941-5a40-c17e-a683"
+      ]
+    },
+    "c9f98e2d-af13-4883-8a42-1d11765de675/classReference-1754037821474-df11-9e82-ab63": {
+      "iri": "c9f98e2d-af13-4883-8a42-1d11765de675/classReference-1754037821474-df11-9e82-ab63",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/ClassReference"
+      ],
+      "dataPsmClass": "ef59c4ad-0e4f-4e0b-9009-ec555e641ca3/class-1747640270910-1022-e495-9645",
+      "dataPsmSpecification": "ef59c4ad-0e4f-4e0b-9009-ec555e641ca3",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/terms-of-use/classReference-1754037821474-df11-9e82-ab63"
+      ]
+    }
+  }
+}

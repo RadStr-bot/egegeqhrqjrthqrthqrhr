@@ -1,0 +1,131 @@
+{
+  "operations": [],
+  "resources": {
+    "77637aa9-df62-4fa7-9b7f-8d59a3e19f08": {
+      "dataPsmHumanDescription": {
+        "cs": "Datová struktura pro Contact details. Contact details such as telephone, e-mail address etc.",
+        "en": "Data structure for Contact details. Contact details such as telephone, e-mail address etc."
+      },
+      "dataPsmHumanLabel": {
+        "cs": "Contact details",
+        "en": "Contact details"
+      },
+      "dataPsmParts": [
+        "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/class-1742234373952-7a86-df18-a582",
+        "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/attribute-1762017391194-426e-bed8-b2c9",
+        "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/attribute-1762017391232-283c-f843-be57",
+        "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/attribute-1762017391266-ef0b-a94d-8148",
+        "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/associationEnd-1762017391323-1734-fdc7-921f",
+        "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/classReference-1762017403453-8514-1650-b187"
+      ],
+      "dataPsmRoots": [
+        "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/class-1742234373952-7a86-df18-a582"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "77637aa9-df62-4fa7-9b7f-8d59a3e19f08",
+      "jsonEnforceContext": "no",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/contact-details"
+      ]
+    },
+    "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/class-1742234373952-7a86-df18-a582": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/attribute-1762017391194-426e-bed8-b2c9",
+        "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/attribute-1762017391232-283c-f843-be57",
+        "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/attribute-1762017391266-ef0b-a94d-8148",
+        "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/associationEnd-1762017391323-1734-fdc7-921f"
+      ],
+      "dataPsmTechnicalLabel": "contact_details",
+      "iri": "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/class-1742234373952-7a86-df18-a582",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "7bl6wssm9rgmls0pdxn",
+      "dataPsmIsClosed": null,
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/contact-details/class-1742234373952-7a86-df18-a582"
+      ]
+    },
+    "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/attribute-1762017391194-426e-bed8-b2c9": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "data_box",
+      "iri": "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/attribute-1762017391194-426e-bed8-b2c9",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "7nlkat8fckhmls0pdxo",
+      "dataPsmDatatype": "http://www.w3.org/2001/XMLSchema#string",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/contact-details/attribute-1762017391194-426e-bed8-b2c9"
+      ]
+    },
+    "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/attribute-1762017391232-283c-f843-be57": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "email",
+      "iri": "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/attribute-1762017391232-283c-f843-be57",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "etbzhe61bxgmls0pdxo",
+      "dataPsmDatatype": "http://www.w3.org/2001/XMLSchema#string",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/contact-details/attribute-1762017391232-283c-f843-be57"
+      ]
+    },
+    "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/attribute-1762017391266-ef0b-a94d-8148": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "phone",
+      "iri": "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/attribute-1762017391266-ef0b-a94d-8148",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "hvv4bx4q3afmls0pdxo",
+      "dataPsmDatatype": "http://www.w3.org/2001/XMLSchema#string",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/contact-details/attribute-1762017391266-ef0b-a94d-8148"
+      ]
+    },
+    "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/associationEnd-1762017391323-1734-fdc7-921f": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "address",
+      "iri": "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/associationEnd-1762017391323-1734-fdc7-921f",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmInterpretation": "hs2rwdihfmcmls0pdxp",
+      "dataPsmIsDematerialize": null,
+      "dataPsmIsReverse": false,
+      "dataPsmPart": "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/classReference-1762017403453-8514-1650-b187",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/contact-details/associationEnd-1762017391323-1734-fdc7-921f"
+      ]
+    },
+    "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/classReference-1762017403453-8514-1650-b187": {
+      "iri": "77637aa9-df62-4fa7-9b7f-8d59a3e19f08/classReference-1762017403453-8514-1650-b187",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/ClassReference"
+      ],
+      "dataPsmClass": "1e1dd854-49a1-4e1a-9ffa-8dcfec172183/class-1742288744053-1c9b-5b71-be90",
+      "dataPsmSpecification": "1e1dd854-49a1-4e1a-9ffa-8dcfec172183",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/contact-details/classReference-1762017403453-8514-1650-b187"
+      ]
+    }
+  }
+}

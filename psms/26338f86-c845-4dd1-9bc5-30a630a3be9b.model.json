@@ -1,0 +1,70 @@
+{
+  "operations": [],
+  "resources": {
+    "44797686-95df-4deb-892a-8d998a356551": {
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Access rights. Access rights to the resource.",
+        "cs": "Datová struktura pro Access rights. Access rights to the resource."
+      },
+      "dataPsmHumanLabel": {
+        "en": "Access rights",
+        "cs": "Access rights"
+      },
+      "dataPsmParts": [
+        "44797686-95df-4deb-892a-8d998a356551/class-1747685414671-e5e1-7f82-b427",
+        "44797686-95df-4deb-892a-8d998a356551/attribute-1747685418726-1d6e-ecd8-ae40"
+      ],
+      "dataPsmRoots": [
+        "44797686-95df-4deb-892a-8d998a356551/class-1747685414671-e5e1-7f82-b427"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "44797686-95df-4deb-892a-8d998a356551",
+      "jsonEnforceContext": "no",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/access-rights"
+      ]
+    },
+    "44797686-95df-4deb-892a-8d998a356551/class-1747685414671-e5e1-7f82-b427": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "44797686-95df-4deb-892a-8d998a356551/attribute-1747685418726-1d6e-ecd8-ae40"
+      ],
+      "dataPsmTechnicalLabel": "access_rights",
+      "iri": "44797686-95df-4deb-892a-8d998a356551/class-1747685414671-e5e1-7f82-b427",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "2e09pbylilmls0pdxn",
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/access-rights/class-1747685414671-e5e1-7f82-b427"
+      ]
+    },
+    "44797686-95df-4deb-892a-8d998a356551/attribute-1747685418726-1d6e-ecd8-ae40": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "label",
+      "iri": "44797686-95df-4deb-892a-8d998a356551/attribute-1747685418726-1d6e-ecd8-ae40",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "h287xx2hswwmls0pdxp",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/access-rights/attribute-1747685418726-1d6e-ecd8-ae40"
+      ]
+    }
+  }
+}

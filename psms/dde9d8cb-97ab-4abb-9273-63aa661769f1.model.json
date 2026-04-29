@@ -1,0 +1,70 @@
+{
+  "operations": [],
+  "resources": {
+    "b00144ed-a4dd-459b-b3be-3dc120cad012": {
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Format. Format of downloadable file.",
+        "cs": "Datová struktura pro Format. Format of downloadable file."
+      },
+      "dataPsmHumanLabel": {
+        "en": "Format",
+        "cs": "Format"
+      },
+      "dataPsmParts": [
+        "b00144ed-a4dd-459b-b3be-3dc120cad012/class-1747685284971-4e81-5f45-a58b",
+        "b00144ed-a4dd-459b-b3be-3dc120cad012/attribute-1747685288536-30aa-4970-a045"
+      ],
+      "dataPsmRoots": [
+        "b00144ed-a4dd-459b-b3be-3dc120cad012/class-1747685284971-4e81-5f45-a58b"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "b00144ed-a4dd-459b-b3be-3dc120cad012",
+      "jsonEnforceContext": "no",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/format"
+      ]
+    },
+    "b00144ed-a4dd-459b-b3be-3dc120cad012/class-1747685284971-4e81-5f45-a58b": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "b00144ed-a4dd-459b-b3be-3dc120cad012/attribute-1747685288536-30aa-4970-a045"
+      ],
+      "dataPsmTechnicalLabel": "format",
+      "iri": "b00144ed-a4dd-459b-b3be-3dc120cad012/class-1747685284971-4e81-5f45-a58b",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "js2a2bqofrmls0pdxn",
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/format/class-1747685284971-4e81-5f45-a58b"
+      ]
+    },
+    "b00144ed-a4dd-459b-b3be-3dc120cad012/attribute-1747685288536-30aa-4970-a045": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "label",
+      "iri": "b00144ed-a4dd-459b-b3be-3dc120cad012/attribute-1747685288536-30aa-4970-a045",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "7u06xywcznymls0pdxp",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/format/attribute-1747685288536-30aa-4970-a045"
+      ]
+    }
+  }
+}

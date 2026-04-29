@@ -1,0 +1,70 @@
+{
+  "operations": [],
+  "resources": {
+    "9e6b930f-c01c-42b1-abe2-ce5122f6f3c6": {
+      "dataPsmHumanDescription": {
+        "cs": "Datová struktura pro Resource agent role type. An idea or notion; a unit of thought.",
+        "en": "Data structure for Resource agent role type. An idea or notion; a unit of thought."
+      },
+      "dataPsmHumanLabel": {
+        "cs": "Resource agent role type",
+        "en": "Resource agent role type"
+      },
+      "dataPsmParts": [
+        "9e6b930f-c01c-42b1-abe2-ce5122f6f3c6/class-1742235606195-b8fa-9b2f-a5cf",
+        "9e6b930f-c01c-42b1-abe2-ce5122f6f3c6/attribute-1753791625528-fae3-a34f-8492"
+      ],
+      "dataPsmRoots": [
+        "9e6b930f-c01c-42b1-abe2-ce5122f6f3c6/class-1742235606195-b8fa-9b2f-a5cf"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "9e6b930f-c01c-42b1-abe2-ce5122f6f3c6",
+      "jsonEnforceContext": "no",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/resource-agent-role-type"
+      ]
+    },
+    "9e6b930f-c01c-42b1-abe2-ce5122f6f3c6/class-1742235606195-b8fa-9b2f-a5cf": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "9e6b930f-c01c-42b1-abe2-ce5122f6f3c6/attribute-1753791625528-fae3-a34f-8492"
+      ],
+      "dataPsmTechnicalLabel": "resource_agent_role_type",
+      "iri": "9e6b930f-c01c-42b1-abe2-ce5122f6f3c6/class-1742235606195-b8fa-9b2f-a5cf",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "qyj3asam7jmls0pdxn",
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/resource-agent-role-type/class-1742235606195-b8fa-9b2f-a5cf"
+      ]
+    },
+    "9e6b930f-c01c-42b1-abe2-ce5122f6f3c6/attribute-1753791625528-fae3-a34f-8492": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "label",
+      "iri": "9e6b930f-c01c-42b1-abe2-ce5122f6f3c6/attribute-1753791625528-fae3-a34f-8492",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "qk6wox3ndabmls0pdxp",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/resource-agent-role-type/attribute-1753791625528-fae3-a34f-8492"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "iri": "4bd5ad3f-111c-49ab-8c98-533562169cc2",
+  "projectIri": "935f6ec9-23b0-43e1-9635-2f2f16727361",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Time interval",
+      "cs": "Time interval"
+    },
+    "description": {
+      "en": "Data structure for Time interval. A temporal entity with an extent or duration",
+      "cs": "Datová struktura pro Time interval. A temporal entity with an extent or duration"
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

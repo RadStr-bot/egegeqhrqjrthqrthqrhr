@@ -1,0 +1,113 @@
+{
+  "operations": [],
+  "resources": {
+    "73b3e53b-027c-44bf-a763-e9b9a90aadcb": {
+      "dataPsmHumanDescription": {
+        "cs": "Datová struktura pro Resource to Agent Relationship. An association class for attaching additional information to a relationship between Dataset and Agent.",
+        "en": "Data structure for Resource to Agent Relationship. An association class for attaching additional information to a relationship between Dataset and Agent."
+      },
+      "dataPsmHumanLabel": {
+        "cs": "Resource to Agent Relationship",
+        "en": "Resource to Agent Relationship"
+      },
+      "dataPsmParts": [
+        "73b3e53b-027c-44bf-a763-e9b9a90aadcb/class-1742235557653-64a2-513a-97fe",
+        "73b3e53b-027c-44bf-a763-e9b9a90aadcb/associationEnd-1742235573496-2eb8-d02a-b8d5",
+        "73b3e53b-027c-44bf-a763-e9b9a90aadcb/associationEnd-1744806813287-5219-13d9-91fa",
+        "73b3e53b-027c-44bf-a763-e9b9a90aadcb/classReference-1744806817181-748d-3f90-8391",
+        "73b3e53b-027c-44bf-a763-e9b9a90aadcb/classReference-1753791609051-8e77-8fe0-b8f3"
+      ],
+      "dataPsmRoots": [
+        "73b3e53b-027c-44bf-a763-e9b9a90aadcb/class-1742235557653-64a2-513a-97fe"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "73b3e53b-027c-44bf-a763-e9b9a90aadcb",
+      "jsonEnforceContext": "no",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/resource-to-agent-relationship"
+      ]
+    },
+    "73b3e53b-027c-44bf-a763-e9b9a90aadcb/class-1742235557653-64a2-513a-97fe": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "73b3e53b-027c-44bf-a763-e9b9a90aadcb/associationEnd-1744806813287-5219-13d9-91fa",
+        "73b3e53b-027c-44bf-a763-e9b9a90aadcb/associationEnd-1742235573496-2eb8-d02a-b8d5"
+      ],
+      "dataPsmTechnicalLabel": "resource_to_agent_relationship",
+      "iri": "73b3e53b-027c-44bf-a763-e9b9a90aadcb/class-1742235557653-64a2-513a-97fe",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "xjooj0k709pmls0pdxn",
+      "dataPsmIsClosed": null,
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/resource-to-agent-relationship/class-1742235557653-64a2-513a-97fe"
+      ]
+    },
+    "73b3e53b-027c-44bf-a763-e9b9a90aadcb/associationEnd-1742235573496-2eb8-d02a-b8d5": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "role",
+      "iri": "73b3e53b-027c-44bf-a763-e9b9a90aadcb/associationEnd-1742235573496-2eb8-d02a-b8d5",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmInterpretation": "425r12f9i5lmls0pdxp",
+      "dataPsmIsDematerialize": false,
+      "dataPsmIsReverse": false,
+      "dataPsmPart": "73b3e53b-027c-44bf-a763-e9b9a90aadcb/classReference-1753791609051-8e77-8fe0-b8f3",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/resource-to-agent-relationship/associationEnd-1742235573496-2eb8-d02a-b8d5"
+      ]
+    },
+    "73b3e53b-027c-44bf-a763-e9b9a90aadcb/associationEnd-1744806813287-5219-13d9-91fa": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "relation",
+      "iri": "73b3e53b-027c-44bf-a763-e9b9a90aadcb/associationEnd-1744806813287-5219-13d9-91fa",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmInterpretation": "htnkmyfyq8cmls0pdxp",
+      "dataPsmIsDematerialize": false,
+      "dataPsmIsReverse": false,
+      "dataPsmPart": "73b3e53b-027c-44bf-a763-e9b9a90aadcb/classReference-1744806817181-748d-3f90-8391",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/resource-to-agent-relationship/associationEnd-1744806813287-5219-13d9-91fa"
+      ]
+    },
+    "73b3e53b-027c-44bf-a763-e9b9a90aadcb/classReference-1744806817181-748d-3f90-8391": {
+      "iri": "73b3e53b-027c-44bf-a763-e9b9a90aadcb/classReference-1744806817181-748d-3f90-8391",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/ClassReference"
+      ],
+      "dataPsmClass": "e51f5301-cb72-4be9-9124-ce8c2765f745/or-1744806345469-98ad-4e4d-8c25",
+      "dataPsmSpecification": "e51f5301-cb72-4be9-9124-ce8c2765f745",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/resource-to-agent-relationship/classReference-1744806817181-748d-3f90-8391"
+      ]
+    },
+    "73b3e53b-027c-44bf-a763-e9b9a90aadcb/classReference-1753791609051-8e77-8fe0-b8f3": {
+      "iri": "73b3e53b-027c-44bf-a763-e9b9a90aadcb/classReference-1753791609051-8e77-8fe0-b8f3",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/ClassReference"
+      ],
+      "dataPsmClass": "9e6b930f-c01c-42b1-abe2-ce5122f6f3c6/class-1742235606195-b8fa-9b2f-a5cf",
+      "dataPsmSpecification": "9e6b930f-c01c-42b1-abe2-ce5122f6f3c6",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/resource-to-agent-relationship/classReference-1753791609051-8e77-8fe0-b8f3"
+      ]
+    }
+  }
+}

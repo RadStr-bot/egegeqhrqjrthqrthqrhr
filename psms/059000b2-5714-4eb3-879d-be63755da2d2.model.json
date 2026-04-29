@@ -1,0 +1,70 @@
+{
+  "operations": [],
+  "resources": {
+    "23a7a9c1-a06f-4da1-858a-3bcb5435f5c1": {
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Language system. A system of signs, symbols, sounds, gestures, or rules used in communication, e.g. a language.",
+        "cs": "Datová struktura pro Language system. A system of signs, symbols, sounds, gestures, or rules used in communication, e.g. a language."
+      },
+      "dataPsmHumanLabel": {
+        "en": "Language system",
+        "cs": "Language system"
+      },
+      "dataPsmParts": [
+        "23a7a9c1-a06f-4da1-858a-3bcb5435f5c1/class-1747685830295-de50-b2ac-bb47",
+        "23a7a9c1-a06f-4da1-858a-3bcb5435f5c1/attribute-1747685836031-a6ab-6f6c-99e9"
+      ],
+      "dataPsmRoots": [
+        "23a7a9c1-a06f-4da1-858a-3bcb5435f5c1/class-1747685830295-de50-b2ac-bb47"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "23a7a9c1-a06f-4da1-858a-3bcb5435f5c1",
+      "jsonEnforceContext": "no",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/language-system"
+      ]
+    },
+    "23a7a9c1-a06f-4da1-858a-3bcb5435f5c1/class-1747685830295-de50-b2ac-bb47": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "23a7a9c1-a06f-4da1-858a-3bcb5435f5c1/attribute-1747685836031-a6ab-6f6c-99e9"
+      ],
+      "dataPsmTechnicalLabel": "language_system",
+      "iri": "23a7a9c1-a06f-4da1-858a-3bcb5435f5c1/class-1747685830295-de50-b2ac-bb47",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "368yiu1hpuomls0pdxn",
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/language-system/class-1747685830295-de50-b2ac-bb47"
+      ]
+    },
+    "23a7a9c1-a06f-4da1-858a-3bcb5435f5c1/attribute-1747685836031-a6ab-6f6c-99e9": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "label",
+      "iri": "23a7a9c1-a06f-4da1-858a-3bcb5435f5c1/attribute-1747685836031-a6ab-6f6c-99e9",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "31i8tqv0kumls0pdxp",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/language-system/attribute-1747685836031-a6ab-6f6c-99e9"
+      ]
+    }
+  }
+}

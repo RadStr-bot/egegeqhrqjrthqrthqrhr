@@ -1,0 +1,21 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/distribution-downloadable-file",
+  "projectIri": "7288c55f-598c-4c12-a425-c15c6a0724bd",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Distribution - downloadable file",
+      "cs": "Distribution - downloadable file"
+    },
+    "description": {
+      "en": "Data structure for Distribution - downloadable file. Physical embodiment of the dataset in a particular format. ",
+      "cs": "Datová struktura pro Distribution - downloadable file. Physical embodiment of the dataset in a particular format. "
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

@@ -1,0 +1,69 @@
+{
+  "operations": [],
+  "resources": {
+    "f9d0cfc9-a1c6-4e60-9d8f-aff7140907a6": {
+      "dataPsmHumanDescription": {
+        "cs": "Datová struktura pro Katalog. Řízená kolekce metadat o datových sadách a datových službách",
+        "en": "Data structure for Repository. A curated collection of metadata about resources."
+      },
+      "dataPsmHumanLabel": {
+        "cs": "Katalog",
+        "en": "Repository"
+      },
+      "dataPsmParts": [
+        "f9d0cfc9-a1c6-4e60-9d8f-aff7140907a6/class-1742339809761-c64b-cd69-80de",
+        "f9d0cfc9-a1c6-4e60-9d8f-aff7140907a6/attribute-1742339813596-b4eb-1f9d-ad64"
+      ],
+      "dataPsmRoots": [
+        "f9d0cfc9-a1c6-4e60-9d8f-aff7140907a6/class-1742339809761-c64b-cd69-80de"
+      ],
+      "dataPsmTechnicalLabel": null,
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "f9d0cfc9-a1c6-4e60-9d8f-aff7140907a6",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/repository"
+      ]
+    },
+    "f9d0cfc9-a1c6-4e60-9d8f-aff7140907a6/class-1742339809761-c64b-cd69-80de": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "f9d0cfc9-a1c6-4e60-9d8f-aff7140907a6/attribute-1742339813596-b4eb-1f9d-ad64"
+      ],
+      "dataPsmTechnicalLabel": "repository",
+      "iri": "f9d0cfc9-a1c6-4e60-9d8f-aff7140907a6/class-1742339809761-c64b-cd69-80de",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "93ha2h097xkmls0pdxn",
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/repository/class-1742339809761-c64b-cd69-80de"
+      ]
+    },
+    "f9d0cfc9-a1c6-4e60-9d8f-aff7140907a6/attribute-1742339813596-b4eb-1f9d-ad64": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "label",
+      "iri": "f9d0cfc9-a1c6-4e60-9d8f-aff7140907a6/attribute-1742339813596-b4eb-1f9d-ad64",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "6enptc5vd58mls0pdxo",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/repository/attribute-1742339813596-b4eb-1f9d-ad64"
+      ]
+    }
+  }
+}

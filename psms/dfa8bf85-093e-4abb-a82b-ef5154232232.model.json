@@ -1,0 +1,175 @@
+{
+  "operations": [],
+  "resources": {
+    "fcf490ab-e0b4-4347-ba0d-ac24a542b782": {
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Distribution - data service. Physical embodiment of the dataset distribution as a particular data service. ",
+        "cs": "Datová struktura pro Distribution - data service. Physical embodiment of the dataset distribution as a particular data service. "
+      },
+      "dataPsmHumanLabel": {
+        "en": "Distribution - data service",
+        "cs": "Distribution - data service"
+      },
+      "dataPsmParts": [
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/class-1762011714325-a238-e785-9c3d",
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/attribute-1762011723030-0c37-14f6-8ca4",
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/associationEnd-1762017910898-a4dc-028b-820e",
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/associationEnd-1762017910954-d22c-ec7f-bf21",
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/associationEnd-1762017911004-0986-bd99-912d",
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/attribute-1762017911037-d4b4-d062-8130",
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/classReference-1762017920504-3859-1f0f-ba2c",
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/classReference-1762017927054-2f2d-e82b-933a",
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/classReference-1762017932754-42a8-3d77-8f60"
+      ],
+      "dataPsmRoots": [
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/class-1762011714325-a238-e785-9c3d"
+      ],
+      "dataPsmTechnicalLabel": "distribution-data-service",
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/1.1",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "iri": "fcf490ab-e0b4-4347-ba0d-ac24a542b782",
+      "jsonEnforceContext": "no",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/distribution-data-service"
+      ]
+    },
+    "fcf490ab-e0b4-4347-ba0d-ac24a542b782/class-1762011714325-a238-e785-9c3d": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmParts": [
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/attribute-1762011723030-0c37-14f6-8ca4",
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/associationEnd-1762017910898-a4dc-028b-820e",
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/associationEnd-1762017910954-d22c-ec7f-bf21",
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/associationEnd-1762017911004-0986-bd99-912d",
+        "fcf490ab-e0b4-4347-ba0d-ac24a542b782/attribute-1762017911037-d4b4-d062-8130"
+      ],
+      "dataPsmTechnicalLabel": "distribution_data_service",
+      "iri": "fcf490ab-e0b4-4347-ba0d-ac24a542b782/class-1762011714325-a238-e785-9c3d",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmExtends": [],
+      "dataPsmInterpretation": "m2n52j9e9ynmls0pdxn",
+      "dataPsmIsClosed": null,
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/distribution-data-service/class-1762011714325-a238-e785-9c3d"
+      ]
+    },
+    "fcf490ab-e0b4-4347-ba0d-ac24a542b782/attribute-1762011723030-0c37-14f6-8ca4": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "title",
+      "iri": "fcf490ab-e0b4-4347-ba0d-ac24a542b782/attribute-1762011723030-0c37-14f6-8ca4",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "iqz3cdn67rbmls0pdxo",
+      "dataPsmDatatype": "http://www.w3.org/2001/XMLSchema#string",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/distribution-data-service/attribute-1762011723030-0c37-14f6-8ca4"
+      ]
+    },
+    "fcf490ab-e0b4-4347-ba0d-ac24a542b782/associationEnd-1762017910898-a4dc-028b-820e": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "access_service",
+      "iri": "fcf490ab-e0b4-4347-ba0d-ac24a542b782/associationEnd-1762017910898-a4dc-028b-820e",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmInterpretation": "u2f3w7cn38jmls0pdxp",
+      "dataPsmIsDematerialize": null,
+      "dataPsmIsReverse": false,
+      "dataPsmPart": "fcf490ab-e0b4-4347-ba0d-ac24a542b782/classReference-1762017920504-3859-1f0f-ba2c",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/distribution-data-service/associationEnd-1762017910898-a4dc-028b-820e"
+      ]
+    },
+    "fcf490ab-e0b4-4347-ba0d-ac24a542b782/associationEnd-1762017910954-d22c-ec7f-bf21": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "conforms_to_specification",
+      "iri": "fcf490ab-e0b4-4347-ba0d-ac24a542b782/associationEnd-1762017910954-d22c-ec7f-bf21",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmInterpretation": "6fg0nsrsszimls0pdxp",
+      "dataPsmIsDematerialize": null,
+      "dataPsmIsReverse": false,
+      "dataPsmPart": "fcf490ab-e0b4-4347-ba0d-ac24a542b782/classReference-1762017927054-2f2d-e82b-933a",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/distribution-data-service/associationEnd-1762017910954-d22c-ec7f-bf21"
+      ]
+    },
+    "fcf490ab-e0b4-4347-ba0d-ac24a542b782/associationEnd-1762017911004-0986-bd99-912d": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "documentation",
+      "iri": "fcf490ab-e0b4-4347-ba0d-ac24a542b782/associationEnd-1762017911004-0986-bd99-912d",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmInterpretation": "0zfulu45gw1mls0pdxp",
+      "dataPsmIsDematerialize": null,
+      "dataPsmIsReverse": false,
+      "dataPsmPart": "fcf490ab-e0b4-4347-ba0d-ac24a542b782/classReference-1762017932754-42a8-3d77-8f60",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/distribution-data-service/associationEnd-1762017911004-0986-bd99-912d"
+      ]
+    },
+    "fcf490ab-e0b4-4347-ba0d-ac24a542b782/attribute-1762017911037-d4b4-d062-8130": {
+      "dataPsmHumanDescription": null,
+      "dataPsmHumanLabel": null,
+      "dataPsmTechnicalLabel": "description",
+      "iri": "fcf490ab-e0b4-4347-ba0d-ac24a542b782/attribute-1762017911037-d4b4-d062-8130",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmInterpretation": "fxmc0djatpbmls0pdxo",
+      "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/distribution-data-service/attribute-1762017911037-d4b4-d062-8130"
+      ]
+    },
+    "fcf490ab-e0b4-4347-ba0d-ac24a542b782/classReference-1762017920504-3859-1f0f-ba2c": {
+      "iri": "fcf490ab-e0b4-4347-ba0d-ac24a542b782/classReference-1762017920504-3859-1f0f-ba2c",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/ClassReference"
+      ],
+      "dataPsmClass": "7af0c2d7-a6c4-4292-86c2-8c0608dd1027/class-1742341134353-4364-b792-b174",
+      "dataPsmSpecification": "7af0c2d7-a6c4-4292-86c2-8c0608dd1027",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/distribution-data-service/classReference-1762017920504-3859-1f0f-ba2c"
+      ]
+    },
+    "fcf490ab-e0b4-4347-ba0d-ac24a542b782/classReference-1762017927054-2f2d-e82b-933a": {
+      "iri": "fcf490ab-e0b4-4347-ba0d-ac24a542b782/classReference-1762017927054-2f2d-e82b-933a",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/ClassReference"
+      ],
+      "dataPsmClass": "cff45e03-8657-484c-8373-bf1e2adc8661/class-1742235803801-3bb0-3064-a2dc",
+      "dataPsmSpecification": "cff45e03-8657-484c-8373-bf1e2adc8661",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/distribution-data-service/classReference-1762017927054-2f2d-e82b-933a"
+      ]
+    },
+    "fcf490ab-e0b4-4347-ba0d-ac24a542b782/classReference-1762017932754-42a8-3d77-8f60": {
+      "iri": "fcf490ab-e0b4-4347-ba0d-ac24a542b782/classReference-1762017932754-42a8-3d77-8f60",
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/ClassReference"
+      ],
+      "dataPsmClass": "07d5ada2-47a0-4b50-9269-92cdd65664e0/class-1742341119213-d3b3-b949-8fcd",
+      "dataPsmSpecification": "07d5ada2-47a0-4b50-9269-92cdd65664e0",
+      "profiling": [
+        "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/distribution-data-service/classReference-1762017932754-42a8-3d77-8f60"
+      ]
+    }
+  }
+}

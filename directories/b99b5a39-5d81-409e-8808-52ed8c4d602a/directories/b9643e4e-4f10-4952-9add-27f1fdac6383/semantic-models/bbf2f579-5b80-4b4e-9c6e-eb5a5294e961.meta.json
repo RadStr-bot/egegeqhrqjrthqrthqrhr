@@ -1,0 +1,17 @@
+{
+  "iri": "http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/8408438f-dc24-4a10-818a-ea580471bf09/vocabulary",
+  "projectIri": "bbf2f579-5b80-4b4e-9c6e-eb5a5294e961",
+  "types": [
+    "http://dataspecer.com/resources/local/semantic-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "DataCite"
+    },
+    "documentBaseUrl": "https://michalmed.github.io/DataCite/en/"
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

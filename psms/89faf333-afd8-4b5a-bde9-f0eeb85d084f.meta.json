@@ -1,0 +1,21 @@
+{
+  "iri": "16a1997a-26cd-49de-ab1f-040680aeb16a",
+  "projectIri": "89faf333-afd8-4b5a-bde9-f0eeb85d084f",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Resource type",
+      "cs": "Resource type"
+    },
+    "description": {
+      "en": "Data structure for Resource type. Type of the resource.",
+      "cs": "Datová struktura pro Resource type. Type of the resource."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

@@ -1,0 +1,21 @@
+{
+  "iri": "f9d0cfc9-a1c6-4e60-9d8f-aff7140907a6",
+  "projectIri": "1b6c454f-cf38-46bf-aeb5-1c5dabf42f7b",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Katalog",
+      "en": "Repository"
+    },
+    "description": {
+      "cs": "Datová struktura pro Katalog. Řízená kolekce metadat o datových sadách a datových službách",
+      "en": "Data structure for Repository. A curated collection of metadata about resources."
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}
