@@ -1,0 +1,547 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<a673268537d036eb8ab56647aeb7bed3locationShape> a sh:NodeShape;
+    sh:targetClass <http://purl.org/dc/terms/Location>;
+    sh:class <http://purl.org/dc/terms/Location>;
+    sh:nodeKind sh:IRI;
+    sh:description "Spatial region, named place or geometry representation of a place related to the resource. "@en;
+    sh:name "Location"@en.
+<e7373d582e3a1344708316d8129777a5bounding_boxShape> a sh:PropertyShape;
+    sh:description "Bounding box of the location geometry."@en;
+    sh:name "bounding box"@en;
+    sh:path <http://www.w3.org/ns/dcat#bbox>;
+    sh:datatype rdfs:Literal.
+<a673268537d036eb8ab56647aeb7bed3locationShape> sh:property <e7373d582e3a1344708316d8129777a5bounding_boxShape>.
+<0b0a29e8af7e6cac032a929aa0f50fc2nameShape> a sh:PropertyShape;
+    sh:description "Name of the spatial location."@en;
+    sh:name "name"@en;
+    sh:path <http://purl.org/dc/terms/title>.
+
+<0b0a29e8af7e6cac032a929aa0f50fc2nameShape> sh:datatype xsd:string.
+<a673268537d036eb8ab56647aeb7bed3locationShape> sh:property <0b0a29e8af7e6cac032a929aa0f50fc2nameShape>.
+<8ce632302354915cf579ce0723271dfcgeometryShape> a sh:PropertyShape;
+    sh:description "The corresponding geometry for a resource."@en;
+    sh:name "has geometry"@en;
+    sh:maxCount 1;
+    sh:path <http://www.w3.org/ns/locn#geometry>;
+    sh:nodeKind sh:IRI.
+<246b01521ac05d5ae47637b29418af3cgeometryShape> a sh:NodeShape;
+    sh:class <http://www.w3.org/ns/locn#Geometry>;
+    sh:nodeKind sh:IRI;
+    sh:description "The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."@en;
+    sh:name "Geometry"@en.
+<50466508a2ccfb7e34e9a8c0f71f2892labelShape> a sh:PropertyShape;
+    sh:description "Label of geometry object."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<246b01521ac05d5ae47637b29418af3cgeometryShape> sh:property <50466508a2ccfb7e34e9a8c0f71f2892labelShape>.
+<f17a1645ae6da12346ff56d489d1d5f7gmlShape> a sh:PropertyShape;
+    sh:description "Representation of geometry object as GML Literal."@en;
+    sh:name "geography markup language literal"@en;
+    sh:maxCount 1;
+    sh:path <http://www.opengis.net/ont/geosparql#asGML>;
+    sh:datatype <http://www.opengis.net/ont/geosparql#gmlLiteral>.
+<246b01521ac05d5ae47637b29418af3cgeometryShape> sh:property <f17a1645ae6da12346ff56d489d1d5f7gmlShape>.
+<5cdf2b1159d6ca8eb4de5ded0f795ba9wktShape> a sh:PropertyShape;
+    sh:description "Representation of geometry object as WKT Literal."@en;
+    sh:name "well known text literal"@en;
+    sh:maxCount 1;
+    sh:path <http://www.opengis.net/ont/geosparql#asWKT>;
+    sh:datatype <http://www.opengis.net/ont/geosparql#wktLiteral>.
+<246b01521ac05d5ae47637b29418af3cgeometryShape> sh:property <5cdf2b1159d6ca8eb4de5ded0f795ba9wktShape>.
+<8ce632302354915cf579ce0723271dfcgeometryShape> sh:node <246b01521ac05d5ae47637b29418af3cgeometryShape>.
+<a673268537d036eb8ab56647aeb7bed3locationShape> sh:property <8ce632302354915cf579ce0723271dfcgeometryShape>.
+<ad4332ea90ba36f7e4a573fa38b7a823related_objectShape> a sh:PropertyShape;
+    sh:description "Relation to the spatial object."@en;
+    sh:name "has related object"@en;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasRelatedResource>;
+    sh:nodeKind sh:IRI.
+<a2613432d00f1fd8e459f5f78502639crelated_resourceShape> a sh:NodeShape;
+    sh:class rdfs:Resource;
+    sh:nodeKind sh:IRI;
+    sh:description "Resource represents any resource, physical or digital, that is related to the described dataset. "@en;
+    sh:name "Related resource"@en.
+<d1bd14b79fd734e376e55a56eeb85156identifierShape> a sh:PropertyShape;
+    sh:description "has identifier"@en;
+    sh:name "has identifier"@en;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasIdentifier>;
+    sh:nodeKind sh:IRI.
+<f935935831e21c9c65a09303e825fd65identifierShape> a sh:NodeShape;
+    sh:class <http://www.w3.org/ns/adms#Identifier>;
+    sh:nodeKind sh:IRI;
+    sh:description "Unique and resolvable identifier containing the notation and identifier scheme in the form of URI."@en;
+    sh:name "Identifier"@en.
+<b0f31fda68cc0108552c0cf8ba5d4ac0valueShape> a sh:PropertyShape;
+    sh:description "Value of the identifer within the given identifier scheme."@en;
+    sh:name "value"@en;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <http://www.w3.org/2004/02/skos/core#notation>;
+    sh:datatype xsd:string.
+<f935935831e21c9c65a09303e825fd65identifierShape> sh:property <b0f31fda68cc0108552c0cf8ba5d4ac0valueShape>.
+<f19bcecd5dc95e53541b5e42ad92bf5cschemeShape> a sh:PropertyShape;
+    sh:description "Relation between the identifier and scheme in which it is defined and unique."@en;
+    sh:name "in scheme"@en;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#inScheme>;
+    sh:nodeKind sh:IRI.
+<7afe2fbb01cee0cc873f5666deea53fcidentifier_schemeShape> a sh:NodeShape;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme>;
+    sh:nodeKind sh:IRI;
+    sh:description "Scheme in which is the identifier value unique, usually representing some authority. Identifier scheme shall always be represented as IRI identifier."@en;
+    sh:name "Identifier scheme"@en.
+<18fe089cb9037d81660967678a52980alabelShape> a sh:PropertyShape;
+    sh:description "Identifier scheme label"@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<7afe2fbb01cee0cc873f5666deea53fcidentifier_schemeShape> sh:property <18fe089cb9037d81660967678a52980alabelShape>.
+<f19bcecd5dc95e53541b5e42ad92bf5cschemeShape> sh:node <7afe2fbb01cee0cc873f5666deea53fcidentifier_schemeShape>.
+<f935935831e21c9c65a09303e825fd65identifierShape> sh:property <f19bcecd5dc95e53541b5e42ad92bf5cschemeShape>.
+<1dea87a9b8d56e30e22ffaf15cf95d5eauthorizedShape> a sh:PropertyShape;
+    sh:description "Specifies whether the identifier is authorized by the subject it represents."@en;
+    sh:name "authorized"@en;
+    sh:maxCount 1;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#authorized>;
+    sh:datatype xsd:boolean.
+<f935935831e21c9c65a09303e825fd65identifierShape> sh:property <1dea87a9b8d56e30e22ffaf15cf95d5eauthorizedShape>.
+<d1bd14b79fd734e376e55a56eeb85156identifierShape> sh:node <f935935831e21c9c65a09303e825fd65identifierShape>.
+<a2613432d00f1fd8e459f5f78502639crelated_resourceShape> sh:property <d1bd14b79fd734e376e55a56eeb85156identifierShape>.
+<79e6456de76fb34d7d80933b8c41e0fftitleShape> a sh:PropertyShape;
+    sh:description "A name given to the resource."@en;
+    sh:name "title"@en;
+    sh:maxCount 1;
+    sh:path <http://purl.org/dc/terms/title>;
+    sh:datatype xsd:string.
+<a2613432d00f1fd8e459f5f78502639crelated_resourceShape> sh:property <79e6456de76fb34d7d80933b8c41e0fftitleShape>.
+<76e9a6aa9e4fb516a7d1c3df4827ea43alternate_titleShape> a sh:PropertyShape;
+    sh:name "has alternate title"@en;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle>;
+    sh:nodeKind sh:IRI.
+<b59580f13f034e2a989f1b8fe9f13061alternate_titleShape> a sh:NodeShape;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle>;
+    sh:nodeKind sh:IRI;
+    sh:description "Alternate title of the resource."@en;
+    sh:name "Alternate title"@en.
+<bacd722aafde2b08dda2d86fe82b772dtitleShape> a sh:PropertyShape;
+    sh:description "A human-readable name for the subject."@en;
+    sh:name "title"@en;
+    sh:minCount 1;
+    sh:path <http://purl.org/dc/terms/title>;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<b59580f13f034e2a989f1b8fe9f13061alternate_titleShape> sh:property <bacd722aafde2b08dda2d86fe82b772dtitleShape>.
+<d35ed749a5e28b1bf5978eeb796c7b88alternate_title_typeShape> a sh:PropertyShape;
+    sh:description "Type of the alternate name relation."@en;
+    sh:name "has alternate title type"@en;
+    sh:maxCount 1;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasType>;
+    sh:nodeKind sh:IRI.
+<8d16c5bdc6240234a2a7f88e92f7d6d8alternate_title_typeShape> a sh:NodeShape;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>;
+    sh:nodeKind sh:IRI;
+    sh:description "Type of alternate title."@en;
+    sh:name "Alternate title type"@en.
+<4ce2e08a2e646d41dbda7efeffad2836labelShape> a sh:PropertyShape;
+    sh:description "Alternate title type label."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<8d16c5bdc6240234a2a7f88e92f7d6d8alternate_title_typeShape> sh:property <4ce2e08a2e646d41dbda7efeffad2836labelShape>.
+<d35ed749a5e28b1bf5978eeb796c7b88alternate_title_typeShape> sh:node <8d16c5bdc6240234a2a7f88e92f7d6d8alternate_title_typeShape>.
+<b59580f13f034e2a989f1b8fe9f13061alternate_titleShape> sh:property <d35ed749a5e28b1bf5978eeb796c7b88alternate_title_typeShape>.
+<76e9a6aa9e4fb516a7d1c3df4827ea43alternate_titleShape> sh:node <b59580f13f034e2a989f1b8fe9f13061alternate_titleShape>.
+<a2613432d00f1fd8e459f5f78502639crelated_resourceShape> sh:property <76e9a6aa9e4fb516a7d1c3df4827ea43alternate_titleShape>.
+<0b4a7bd1b5d9dcf8253fac7e6a9d7285resource_urlShape> a sh:PropertyShape;
+    sh:description "Human readable resolvable URL representing the resource."@en;
+    sh:name "resource URL"@en;
+    sh:maxCount 1;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#resourceUrl>;
+    sh:datatype xsd:anyURI.
+<a2613432d00f1fd8e459f5f78502639crelated_resourceShape> sh:property <0b4a7bd1b5d9dcf8253fac7e6a9d7285resource_urlShape>.
+<66b4652407063537ba388cb34429e12fqualified_relationShape> a sh:PropertyShape;
+    sh:name "qualified relation"@en;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#qualifiedRelation>;
+    sh:nodeKind sh:IRI.
+<21aa4edba7c17161d16bdf23e76fec0eresource_to_agent_relationshipShape> a sh:NodeShape;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#ResourceToAgentRelationship>;
+    sh:nodeKind sh:IRI;
+    sh:description "An association class for attaching additional information to a relationship between Resource and Agent."@en;
+    sh:name "Resource to agent relationship"@en.
+<3bab02aadc8a14baa6eb4382feeef477relationShape> a sh:PropertyShape;
+    sh:description "Specifies the agent an a given role in the relationship with the resource."@en;
+    sh:name "has related agent"@en;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <http://purl.org/dc/terms/relation>;
+    sh:nodeKind sh:IRI.
+<a2fb36fbb73568fe5ebdd6a995db899dorganizationShape> a sh:NodeShape;
+    sh:class <http://xmlns.com/foaf/0.1/Agent>;
+    sh:nodeKind sh:IRI;
+    sh:description "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures. "@en;
+    sh:name "Organization"@en.
+<a636fd5d4c23261f8c89bed86221764cidentifierShape> a sh:PropertyShape;
+    sh:description "has identifier"@en;
+    sh:name "has identifier"@en;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasIdentifier>;
+    sh:nodeKind sh:IRI;
+    sh:node <f935935831e21c9c65a09303e825fd65identifierShape>.
+<a2fb36fbb73568fe5ebdd6a995db899dorganizationShape> sh:property <a636fd5d4c23261f8c89bed86221764cidentifierShape>.
+<f5cd791712e97c63838ce8dec6f0c48fnameShape> a sh:PropertyShape;
+    sh:description "Name of the agent."@en;
+    sh:name "name"@en;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <http://xmlns.com/foaf/0.1/name>;
+    sh:datatype xsd:string.
+<a2fb36fbb73568fe5ebdd6a995db899dorganizationShape> sh:property <f5cd791712e97c63838ce8dec6f0c48fnameShape>.
+<86c9828e08e2afe51b0e9409362444a8alternate_nameShape> a sh:PropertyShape;
+    sh:description "To specify the organizational name associated with the object"@en;
+    sh:name "alternate name"@en;
+    sh:path <http://www.w3.org/2006/vcard/ns#organization-name>;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<a2fb36fbb73568fe5ebdd6a995db899dorganizationShape> sh:property <86c9828e08e2afe51b0e9409362444a8alternate_nameShape>.
+<75c626193e133a6d26918ed03c907ba0contact_pointShape> a sh:PropertyShape;
+    sh:description "Información relevante de contacto para el recurso catalogado. Se recomienda el uso de vCard."@es, "Informazioni di contatto rilevanti per la risorsa catalogata. Si raccomanda l'uso di vCard."@it, "Relevant contact information for the catalogued resource. "@en, "Relevantní kontaktní informace pro katalogizovaný zdroj. Doporučuje se použít slovník VCard."@cs, "Relie un jeu de données à une information de contact utile en utilisant VCard."@fr, "Συνδέει ένα σύνολο δεδομένων με ένα σχετικό σημείο επικοινωνίας, μέσω VCard."@el, "تربط قائمة البيانات بعنوان اتصال موصف  باستخدام VCard"@ar, "データセットを、VCardを用いて提供されている適切な連絡先情報にリンクします。"@ja, "Relevante kontaktoplysninger for den katalogiserede ressource. Anvendelse af vCard anbefales."@da;
+    sh:name "Punto de contacto"@es, "has contact point"@en, "má kontaktní bod"@cs, "point de contact"@fr, "punto di contatto"@it, "σημείο επικοινωνίας"@el, "عنوان اتصال"@ar, "窓口"@ja, "kontaktpunkt"@da;
+    sh:path <http://www.w3.org/ns/dcat#contactPoint>;
+    sh:nodeKind sh:IRI.
+<9456e73e147485c73d4024bfba464d7fcontact_detailsShape> a sh:NodeShape;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#ContactDetails>;
+    sh:nodeKind sh:IRI;
+    sh:description "Details to contact the agent in a relationship to the resource."@en;
+    sh:name "Contact details"@en.
+<49f1a2fefd164b655b2182fc4df9b91cdata_boxShape> a sh:PropertyShape;
+    sh:description "Code of the data box."@en;
+    sh:name "data box"@en;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#dataBox>;
+    sh:datatype xsd:string.
+<9456e73e147485c73d4024bfba464d7fcontact_detailsShape> sh:property <49f1a2fefd164b655b2182fc4df9b91cdata_boxShape>.
+<341783f3d6bf310bff1e63846e09c41femailShape> a sh:PropertyShape;
+    sh:description "Email address."@en;
+    sh:name "email"@en;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#email>;
+    sh:datatype xsd:string.
+<9456e73e147485c73d4024bfba464d7fcontact_detailsShape> sh:property <341783f3d6bf310bff1e63846e09c41femailShape>.
+<9eb0de492b731be3b1dc37a4947aaf40phoneShape> a sh:PropertyShape;
+    sh:description "Phone number"@en;
+    sh:name "phone"@en;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#phone>;
+    sh:datatype xsd:string.
+<9456e73e147485c73d4024bfba464d7fcontact_detailsShape> sh:property <9eb0de492b731be3b1dc37a4947aaf40phoneShape>.
+<8bf95cab24758a3cab0e548952aa55bbaddressShape> a sh:PropertyShape;
+    sh:description "To specify the components of the delivery address for the object"@en;
+    sh:name "has address"@en;
+    sh:path <http://www.w3.org/2006/vcard/ns#hasAddress>;
+    sh:nodeKind sh:IRI.
+<c2534f76f2461bbe872ae048e45995c3addressShape> a sh:NodeShape;
+    sh:class <http://www.w3.org/ns/locn#Address>;
+    sh:nodeKind sh:IRI;
+    sh:description "A spatial object that in a human-readable way identifies a fixed location. "@en;
+    sh:name "Address"@en.
+<778acca3f6448fa9df3f225e85c0fd10labelShape> a sh:PropertyShape;
+    sh:description "Address label"@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<c2534f76f2461bbe872ae048e45995c3addressShape> sh:property <778acca3f6448fa9df3f225e85c0fd10labelShape>.
+<0f0a4f4654b170e7326e9b542e91c06ffull_addressShape> a sh:PropertyShape;
+    sh:description "The complete address written as a string."@en;
+    sh:name "full address"@en;
+    sh:path <http://www.w3.org/ns/locn#fullAddress>;
+    sh:datatype xsd:string.
+<c2534f76f2461bbe872ae048e45995c3addressShape> sh:property <0f0a4f4654b170e7326e9b542e91c06ffull_addressShape>.
+<3e73694e1cac2dec5af08714519e6068po_boxShape> a sh:PropertyShape;
+    sh:description "A location designator for a postal delivery point at a post office, usually a number."@en;
+    sh:name "post office box"@en;
+    sh:path <http://www.w3.org/ns/locn#poBox>;
+    sh:datatype xsd:string.
+<c2534f76f2461bbe872ae048e45995c3addressShape> sh:property <3e73694e1cac2dec5af08714519e6068po_boxShape>.
+<f271371d0b8fcb3fa9f81f6c9f1ca98bthoroughfareShape> a sh:PropertyShape;
+    sh:description "The name of a passage or way through from one location to another."@en;
+    sh:name "thoroughfare"@en;
+    sh:path <http://www.w3.org/ns/locn#thoroughfare>;
+    sh:datatype xsd:string.
+<c2534f76f2461bbe872ae048e45995c3addressShape> sh:property <f271371d0b8fcb3fa9f81f6c9f1ca98bthoroughfareShape>.
+<1199e75fb9aa5861bdf56b2238321877locator_designatorShape> a sh:PropertyShape;
+    sh:description "A number or sequence of characters that uniquely identifies the locator within the relevant scope."@en;
+    sh:name "locator designator"@en;
+    sh:path <http://www.w3.org/ns/locn#locatorDesignator>;
+    sh:datatype xsd:string.
+<c2534f76f2461bbe872ae048e45995c3addressShape> sh:property <1199e75fb9aa5861bdf56b2238321877locator_designatorShape>.
+<49a266bd63398074c997c1626be86ca1locator_nameShape> a sh:PropertyShape;
+    sh:description "Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building."@en;
+    sh:name "locator name"@en;
+    sh:path <http://www.w3.org/ns/locn#locatorName>;
+    sh:datatype xsd:string.
+<c2534f76f2461bbe872ae048e45995c3addressShape> sh:property <49a266bd63398074c997c1626be86ca1locator_nameShape>.
+<6a2c7d30e3cb9cf2687c370bd5975cdeaddress_areaShape> a sh:PropertyShape;
+    sh:description "The name of a geographic area that groups Addresses."@en;
+    sh:name "address area"@en;
+    sh:path <http://www.w3.org/ns/locn#addressArea>;
+    sh:datatype xsd:string.
+<c2534f76f2461bbe872ae048e45995c3addressShape> sh:property <6a2c7d30e3cb9cf2687c370bd5975cdeaddress_areaShape>.
+<9faa98d324b9a406fba09dbc2d210271post_nameShape> a sh:PropertyShape;
+    sh:description "A name created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points. "@en;
+    sh:name "post name"@en;
+    sh:path <http://www.w3.org/ns/locn#postName>;
+    sh:datatype xsd:string.
+<c2534f76f2461bbe872ae048e45995c3addressShape> sh:property <9faa98d324b9a406fba09dbc2d210271post_nameShape>.
+<7ef447f72b10eff30aa3a957770d61e8administrative_unit_level_1Shape> a sh:PropertyShape;
+    sh:description "The name of the uppermost level of the address, almost always a country."@en;
+    sh:name "administrative unit level 1"@en;
+    sh:path <http://www.w3.org/ns/locn#adminUnitL1>;
+    sh:datatype xsd:string.
+<c2534f76f2461bbe872ae048e45995c3addressShape> sh:property <7ef447f72b10eff30aa3a957770d61e8administrative_unit_level_1Shape>.
+<3f23b86b59453dadbff241a334a13929administrative_unit_level_2Shape> a sh:PropertyShape;
+    sh:description "The name of a secondary level/region of the address, usually a county, state or other such area that typically encompasses several localities."@en;
+    sh:name "administrative unit level 2"@en;
+    sh:path <http://www.w3.org/ns/locn#adminUnitL2>;
+    sh:datatype xsd:string.
+<c2534f76f2461bbe872ae048e45995c3addressShape> sh:property <3f23b86b59453dadbff241a334a13929administrative_unit_level_2Shape>.
+<2b7e0a77585eb2eb360e8b29d9aabd11post_codeShape> a sh:PropertyShape;
+    sh:description "The code created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points."@en;
+    sh:name "post code"@en;
+    sh:path <http://www.w3.org/ns/locn#postCode>;
+    sh:datatype xsd:string.
+<c2534f76f2461bbe872ae048e45995c3addressShape> sh:property <2b7e0a77585eb2eb360e8b29d9aabd11post_codeShape>.
+<8bf95cab24758a3cab0e548952aa55bbaddressShape> sh:node <c2534f76f2461bbe872ae048e45995c3addressShape>.
+<9456e73e147485c73d4024bfba464d7fcontact_detailsShape> sh:property <8bf95cab24758a3cab0e548952aa55bbaddressShape>.
+<75c626193e133a6d26918ed03c907ba0contact_pointShape> sh:node <9456e73e147485c73d4024bfba464d7fcontact_detailsShape>.
+<a2fb36fbb73568fe5ebdd6a995db899dorganizationShape> sh:property <75c626193e133a6d26918ed03c907ba0contact_pointShape>.
+<3bab02aadc8a14baa6eb4382feeef477relationShape> sh:node <a2fb36fbb73568fe5ebdd6a995db899dorganizationShape>;
+    sh:nodeKind sh:IRI.
+<9b5e22c42c2fde6469556458ce8ebdafpersonShape> a sh:NodeShape;
+    sh:class <http://www.w3.org/ns/prov#Person>;
+    sh:nodeKind sh:IRI;
+    sh:description "Physical person. "@en;
+    sh:name "Person"@en.
+<b45cc2be61f46bbf800ca5f37a4606baidentifierShape> a sh:PropertyShape;
+    sh:description "has identifier"@en;
+    sh:name "has identifier"@en;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasIdentifier>;
+    sh:nodeKind sh:IRI;
+    sh:node <f935935831e21c9c65a09303e825fd65identifierShape>.
+<9b5e22c42c2fde6469556458ce8ebdafpersonShape> sh:property <b45cc2be61f46bbf800ca5f37a4606baidentifierShape>.
+<5529bed48bcc87229a49b21fcde9f82cnameShape> a sh:PropertyShape;
+    sh:description "Name of the agent."@en;
+    sh:name "name"@en;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <http://xmlns.com/foaf/0.1/name>;
+    sh:datatype xsd:string.
+<9b5e22c42c2fde6469556458ce8ebdafpersonShape> sh:property <5529bed48bcc87229a49b21fcde9f82cnameShape>.
+<6f57c64fe973a087844bec4f4e459ac1given_nameShape> a sh:PropertyShape;
+    sh:description "The given name associated with the person."@en;
+    sh:name "given name"@en;
+    sh:path <http://www.w3.org/2006/vcard/ns#given-name>;
+    sh:datatype xsd:string.
+<9b5e22c42c2fde6469556458ce8ebdafpersonShape> sh:property <6f57c64fe973a087844bec4f4e459ac1given_nameShape>.
+<34534ad4371c7530b1bfa3b524221830family_nameShape> a sh:PropertyShape;
+    sh:description "The family name associated with the person."@en;
+    sh:name "family name"@en;
+    sh:path <http://www.w3.org/2006/vcard/ns#family-name>;
+    sh:datatype xsd:string.
+<9b5e22c42c2fde6469556458ce8ebdafpersonShape> sh:property <34534ad4371c7530b1bfa3b524221830family_nameShape>.
+<cd0ad8071d4c0bd2830f77186990d6e9contact_pointShape> a sh:PropertyShape;
+    sh:description "Información relevante de contacto para el recurso catalogado. Se recomienda el uso de vCard."@es, "Informazioni di contatto rilevanti per la risorsa catalogata. Si raccomanda l'uso di vCard."@it, "Relevant contact information for the catalogued resource. "@en, "Relevantní kontaktní informace pro katalogizovaný zdroj. Doporučuje se použít slovník VCard."@cs, "Relie un jeu de données à une information de contact utile en utilisant VCard."@fr, "Συνδέει ένα σύνολο δεδομένων με ένα σχετικό σημείο επικοινωνίας, μέσω VCard."@el, "تربط قائمة البيانات بعنوان اتصال موصف  باستخدام VCard"@ar, "データセットを、VCardを用いて提供されている適切な連絡先情報にリンクします。"@ja, "Relevante kontaktoplysninger for den katalogiserede ressource. Anvendelse af vCard anbefales."@da;
+    sh:name "Punto de contacto"@es, "has contact point"@en, "má kontaktní bod"@cs, "point de contact"@fr, "punto di contatto"@it, "σημείο επικοινωνίας"@el, "عنوان اتصال"@ar, "窓口"@ja, "kontaktpunkt"@da;
+    sh:path <http://www.w3.org/ns/dcat#contactPoint>;
+    sh:nodeKind sh:IRI;
+    sh:node <9456e73e147485c73d4024bfba464d7fcontact_detailsShape>.
+<9b5e22c42c2fde6469556458ce8ebdafpersonShape> sh:property <cd0ad8071d4c0bd2830f77186990d6e9contact_pointShape>.
+<e7554df88f2421f2dd5e816a18b69d95affiliationShape> a sh:PropertyShape;
+    sh:description "Affiliation of the person to an organization."@en;
+    sh:name "has affiliation"@en;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation>;
+    sh:nodeKind sh:IRI;
+    sh:node <a2fb36fbb73568fe5ebdd6a995db899dorganizationShape>.
+<9b5e22c42c2fde6469556458ce8ebdafpersonShape> sh:property <e7554df88f2421f2dd5e816a18b69d95affiliationShape>.
+<3bab02aadc8a14baa6eb4382feeef477relationShape> sh:node <9b5e22c42c2fde6469556458ce8ebdafpersonShape>.
+<21aa4edba7c17161d16bdf23e76fec0eresource_to_agent_relationshipShape> sh:property <3bab02aadc8a14baa6eb4382feeef477relationShape>.
+<d9357d9ea186df4f82aff62900b022bfroleShape> a sh:PropertyShape;
+    sh:description "Funkce entity či agenta ve vztahu k jiné entitě či zdroji."@cs, "La función de una entidad o agente con respecto a otra entidad o recurso."@es, "La funzione di un'entità o un agente rispetto ad un'altra entità o risorsa."@it, "The function of an entity or agent with respect to another entity or resource."@en, "Den funktion en entitet eller aktør har i forhold til en anden ressource."@da;
+    sh:name "tiene rol"@it, "had role"@en, "sehraná role"@cs, "havde rolle"@da;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <http://www.w3.org/ns/dcat#hadRole>;
+    sh:nodeKind sh:IRI.
+<ef28cf714800d581aab7b477ead91055resource_agent_role_typeShape> a sh:NodeShape;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>;
+    sh:nodeKind sh:IRI;
+    sh:description "Role of the agent in the relationship to the resource. "@en;
+    sh:name "Resource agent role type"@en.
+<f6ac380684f4405b3179f1de865e2510labelShape> a sh:PropertyShape;
+    sh:description "Resource agent role type label."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<ef28cf714800d581aab7b477ead91055resource_agent_role_typeShape> sh:property <f6ac380684f4405b3179f1de865e2510labelShape>.
+<d9357d9ea186df4f82aff62900b022bfroleShape> sh:node <ef28cf714800d581aab7b477ead91055resource_agent_role_typeShape>.
+<21aa4edba7c17161d16bdf23e76fec0eresource_to_agent_relationshipShape> sh:property <d9357d9ea186df4f82aff62900b022bfroleShape>.
+<66b4652407063537ba388cb34429e12fqualified_relationShape> sh:node <21aa4edba7c17161d16bdf23e76fec0eresource_to_agent_relationshipShape>.
+<a2613432d00f1fd8e459f5f78502639crelated_resourceShape> sh:property <66b4652407063537ba388cb34429e12fqualified_relationShape>.
+<3b93c862ddecf2296d6895aedbc75779time_referenceShape> a sh:PropertyShape;
+    sh:description "Reference to events related to the resource."@en;
+    sh:name "has time reference"@en;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference>;
+    sh:nodeKind sh:IRI.
+<b5b1fa4b1c2d1a71d4bf5e25be842343time_referenceShape> a sh:NodeShape;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#TimeReference>;
+    sh:nodeKind sh:IRI;
+    sh:description "An object representing time reference relevant to some event related to the resource has happened."@en;
+    sh:name "Time reference"@en.
+<f28b436f7cc500bb5dc64b5f9b1f4efdtemporal_representationShape> a sh:PropertyShape;
+    sh:name "has temporal representation"@en;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <null>;
+    sh:nodeKind sh:IRI.
+<8aadf9b4787f3b5c0905eac254ba76fatime_intervalShape> a sh:NodeShape;
+    sh:targetClass <http://www.w3.org/2006/time#Interval>;
+    sh:class <http://www.w3.org/2006/time#Interval>;
+    sh:nodeKind sh:IRI;
+    sh:description "A temporal entity with an extent or duration"@en, "Una entidad temporal con una extensión o duración."@es;
+    sh:name "Time interval"@en, "intervalo de tiempo"@es.
+<873127418719720e112ab9478f4348d1beginningShape> a sh:PropertyShape;
+    sh:description "Time instant representing the beginning of a temporal interval."@en, "Comienzo de una entidad temporal."@es;
+    sh:name "has beginning"@en, "tiene principio"@es;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <http://www.w3.org/2006/time#hasBeginning>;
+    sh:nodeKind sh:IRI.
+<86361b29e6bd88aa50ea2841449410e5time_instantShape> a sh:NodeShape;
+    sh:class <http://www.w3.org/2006/time#Instant>;
+    sh:nodeKind sh:IRI;
+    sh:description "A temporal entity with zero extent or duration."@en, "Una entidad temporal con una extensión o duración cero."@es;
+    sh:name "Time instant"@en, "instante de tiempo."@es.
+<2a94d88a63985c1bd5dd8459da37d19bShape> a sh:PropertyShape;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <null>;
+    sh:nodeKind sh:IRI;
+    a sh:NodeShape;
+    sh:targetClass <null>;
+    sh:class <null>;
+    sh:nodeKind sh:IRI.
+<e82dabfe952021a686e0e23e05068defdate_timeShape> a sh:PropertyShape;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <http://www.w3.org/2006/time#inXSDDateTime>;
+    sh:datatype xsd:dateTime.
+<2a94d88a63985c1bd5dd8459da37d19bShape> sh:property <e82dabfe952021a686e0e23e05068defdate_timeShape>.
+<e199f7d9a28f6ce2fd661a99af5e8000dateShape> a sh:PropertyShape;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <http://www.w3.org/2006/time#inXSDDate>;
+    sh:datatype xsd:date.
+<2a94d88a63985c1bd5dd8459da37d19bShape> sh:property <e199f7d9a28f6ce2fd661a99af5e8000dateShape>;
+    sh:node <2a94d88a63985c1bd5dd8459da37d19bShape>.
+<86361b29e6bd88aa50ea2841449410e5time_instantShape> sh:property <2a94d88a63985c1bd5dd8459da37d19bShape>.
+<873127418719720e112ab9478f4348d1beginningShape> sh:node <86361b29e6bd88aa50ea2841449410e5time_instantShape>.
+<8aadf9b4787f3b5c0905eac254ba76fatime_intervalShape> sh:property <873127418719720e112ab9478f4348d1beginningShape>.
+<fa05fa00571127861a7b18cedd831928endShape> a sh:PropertyShape;
+    sh:description "Time instant representing the end of a temporal interval."@en, "Final de una entidad temporal."@es;
+    sh:name "has end"@en, "tiene fin"@es;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <http://www.w3.org/2006/time#hasEnd>;
+    sh:nodeKind sh:IRI;
+    sh:node <86361b29e6bd88aa50ea2841449410e5time_instantShape>.
+<8aadf9b4787f3b5c0905eac254ba76fatime_intervalShape> sh:property <fa05fa00571127861a7b18cedd831928endShape>.
+<f28b436f7cc500bb5dc64b5f9b1f4efdtemporal_representationShape> sh:node <8aadf9b4787f3b5c0905eac254ba76fatime_intervalShape>;
+    sh:nodeKind sh:IRI;
+    sh:node <86361b29e6bd88aa50ea2841449410e5time_instantShape>.
+<b5b1fa4b1c2d1a71d4bf5e25be842343time_referenceShape> sh:property <f28b436f7cc500bb5dc64b5f9b1f4efdtemporal_representationShape>.
+<221e82d9ff467a1f5f1c5f8413752ce5date_typeShape> a sh:PropertyShape;
+    sh:description "Reference to the codelist of date types."@en;
+    sh:name "has date type"@en;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasType>;
+    sh:nodeKind sh:IRI.
+<cd487b91c290f904a9765180524b5296date_typeShape> a sh:NodeShape;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>;
+    sh:nodeKind sh:IRI;
+    sh:description "Type of a date in relation to the resource."@en;
+    sh:name "Date type"@en.
+<affa428fa593d233d503aa4887e29115labelShape> a sh:PropertyShape;
+    sh:description "Date type label."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<cd487b91c290f904a9765180524b5296date_typeShape> sh:property <affa428fa593d233d503aa4887e29115labelShape>.
+<221e82d9ff467a1f5f1c5f8413752ce5date_typeShape> sh:node <cd487b91c290f904a9765180524b5296date_typeShape>.
+<b5b1fa4b1c2d1a71d4bf5e25be842343time_referenceShape> sh:property <221e82d9ff467a1f5f1c5f8413752ce5date_typeShape>.
+<d637927d83724665b164064871a98e00date_informationShape> a sh:PropertyShape;
+    sh:description "Additional information to the date in text form."@en;
+    sh:name "date information"@en;
+    sh:maxCount 1;
+    sh:path <https://model.ccmm.cz/vocabulary/datacite#dateInformation>;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<b5b1fa4b1c2d1a71d4bf5e25be842343time_referenceShape> sh:property <d637927d83724665b164064871a98e00date_informationShape>.
+<3b93c862ddecf2296d6895aedbc75779time_referenceShape> sh:node <b5b1fa4b1c2d1a71d4bf5e25be842343time_referenceShape>.
+<a2613432d00f1fd8e459f5f78502639crelated_resourceShape> sh:property <3b93c862ddecf2296d6895aedbc75779time_referenceShape>.
+<604244b8d46a1051450434881f206987resource_typeShape> a sh:PropertyShape;
+    sh:description "The resource type of the resource."@en;
+    sh:name "has resource type"@en;
+    sh:maxCount 1;
+    sh:path <http://purl.org/dc/terms/type>;
+    sh:nodeKind sh:IRI.
+<a6f2f22f499dc324b97d113ea86a5b94resource_typeShape> a sh:NodeShape;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>;
+    sh:nodeKind sh:IRI;
+    sh:description "Type of the resource."@en;
+    sh:name "Resource type"@en.
+<5d60153c3c8efd98d9da0530ec42c37dlabelShape> a sh:PropertyShape;
+    sh:description "Label of the resource type."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<a6f2f22f499dc324b97d113ea86a5b94resource_typeShape> sh:property <5d60153c3c8efd98d9da0530ec42c37dlabelShape>.
+<604244b8d46a1051450434881f206987resource_typeShape> sh:node <a6f2f22f499dc324b97d113ea86a5b94resource_typeShape>.
+<a2613432d00f1fd8e459f5f78502639crelated_resourceShape> sh:property <604244b8d46a1051450434881f206987resource_typeShape>.
+<c85ffda02cb512bbd272bb2390e9e38dresource_relation_typeShape> a sh:PropertyShape;
+    sh:description "Relation to the relation type between dataset and resource."@en;
+    sh:name "has resource relation type"@en;
+    sh:maxCount 1;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasType>;
+    sh:nodeKind sh:IRI.
+<8e87a41da7c1af42f0492228f606a133resource_relation_typeShape> a sh:NodeShape;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>;
+    sh:nodeKind sh:IRI;
+    sh:description "Type of the relation between the dataset and given resource."@en;
+    sh:name "Resource relation type"@en.
+<56d3cceb87f113c85774edf5acc52ef2labelShape> a sh:PropertyShape;
+    sh:description "Label of the relation type."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<8e87a41da7c1af42f0492228f606a133resource_relation_typeShape> sh:property <56d3cceb87f113c85774edf5acc52ef2labelShape>.
+<c85ffda02cb512bbd272bb2390e9e38dresource_relation_typeShape> sh:node <8e87a41da7c1af42f0492228f606a133resource_relation_typeShape>.
+<a2613432d00f1fd8e459f5f78502639crelated_resourceShape> sh:property <c85ffda02cb512bbd272bb2390e9e38dresource_relation_typeShape>.
+<ad4332ea90ba36f7e4a573fa38b7a823related_objectShape> sh:node <a2613432d00f1fd8e459f5f78502639crelated_resourceShape>.
+<a673268537d036eb8ab56647aeb7bed3locationShape> sh:property <ad4332ea90ba36f7e4a573fa38b7a823related_objectShape>.
+<6704b87538d8258b3ae3424b981e3258relation_typeShape> a sh:PropertyShape;
+    sh:description "Relation of the location to the dataset."@en;
+    sh:name "has location relation type"@en;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasType>;
+    sh:nodeKind sh:IRI.
+<8dbc0f3ae532551893f925c891205565relation_typeShape> a sh:NodeShape;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>;
+    sh:nodeKind sh:IRI;
+    sh:description "Relation of the dataset to the resource."@en;
+    sh:name "Location relation type"@en.
+<945acb883474962a36a457ab9fb5407elabelShape> a sh:PropertyShape;
+    sh:description "Label of location relation type."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<8dbc0f3ae532551893f925c891205565relation_typeShape> sh:property <945acb883474962a36a457ab9fb5407elabelShape>.
+<6704b87538d8258b3ae3424b981e3258relation_typeShape> sh:node <8dbc0f3ae532551893f925c891205565relation_typeShape>.
+<a673268537d036eb8ab56647aeb7bed3locationShape> sh:property <6704b87538d8258b3ae3424b981e3258relation_typeShape>.

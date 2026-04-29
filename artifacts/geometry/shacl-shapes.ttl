@@ -1,0 +1,29 @@
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<246b01521ac05d5ae47637b29418af3cgeometryShape> a sh:NodeShape;
+    sh:targetClass <http://www.w3.org/ns/locn#Geometry>;
+    sh:class <http://www.w3.org/ns/locn#Geometry>;
+    sh:nodeKind sh:IRI;
+    sh:description "The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."@en;
+    sh:name "Geometry"@en.
+<50466508a2ccfb7e34e9a8c0f71f2892labelShape> a sh:PropertyShape;
+    sh:description "Label of geometry object."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<246b01521ac05d5ae47637b29418af3cgeometryShape> sh:property <50466508a2ccfb7e34e9a8c0f71f2892labelShape>.
+<f17a1645ae6da12346ff56d489d1d5f7gmlShape> a sh:PropertyShape;
+    sh:description "Representation of geometry object as GML Literal."@en;
+    sh:name "geography markup language literal"@en;
+    sh:maxCount 1;
+    sh:path <http://www.opengis.net/ont/geosparql#asGML>;
+    sh:datatype <http://www.opengis.net/ont/geosparql#gmlLiteral>.
+<246b01521ac05d5ae47637b29418af3cgeometryShape> sh:property <f17a1645ae6da12346ff56d489d1d5f7gmlShape>.
+<5cdf2b1159d6ca8eb4de5ded0f795ba9wktShape> a sh:PropertyShape;
+    sh:description "Representation of geometry object as WKT Literal."@en;
+    sh:name "well known text literal"@en;
+    sh:maxCount 1;
+    sh:path <http://www.opengis.net/ont/geosparql#asWKT>;
+    sh:datatype <http://www.opengis.net/ont/geosparql#wktLiteral>.
+<246b01521ac05d5ae47637b29418af3cgeometryShape> sh:property <5cdf2b1159d6ca8eb4de5ded0f795ba9wktShape>.

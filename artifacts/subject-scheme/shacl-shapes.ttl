@@ -1,0 +1,15 @@
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<90a5998d2fa18a6b7873059e54c0e7bcsubject_schemeShape> a sh:NodeShape;
+    sh:targetClass <https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme>;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme>;
+    sh:nodeKind sh:IRI;
+    sh:description "Collection of subjects (keywords, concepts, classification codes) curated by a single source."@en;
+    sh:name "Subject scheme"@en.
+<b46a00ca44874aad0f92ccaf5910f4aclabelShape> a sh:PropertyShape;
+    sh:description "Label of the subject scheme."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<90a5998d2fa18a6b7873059e54c0e7bcsubject_schemeShape> sh:property <b46a00ca44874aad0f92ccaf5910f4aclabelShape>.

@@ -1,0 +1,15 @@
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<f3a48e51a8e9c560cdd4c145824f42d3access_rightsShape> a sh:NodeShape;
+    sh:targetClass <http://purl.org/dc/terms/RightsStatement>;
+    sh:class <http://purl.org/dc/terms/RightsStatement>;
+    sh:nodeKind sh:IRI;
+    sh:description "A statement about the access rights to the dataset."@en;
+    sh:name "Access rights"@en.
+<619e9e8e4ba127ae3b322dbd39c74a9clabelShape> a sh:PropertyShape;
+    sh:description "Label of the access rights vocabulary value."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<f3a48e51a8e9c560cdd4c145824f42d3access_rightsShape> sh:property <619e9e8e4ba127ae3b322dbd39c74a9clabelShape>.

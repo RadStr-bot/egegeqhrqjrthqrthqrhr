@@ -1,0 +1,9 @@
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+<0b1fe1d1dc734bd5627ee72187ab8fedmedia_typeShExShape> IRI{
+	a [<http://purl.org/dc/terms/MediaType>] ;
+	rdfs:label rdf:langString *
+		// rdfs:label	"label"
+		// rdfs:comment	"Media type label."
+}

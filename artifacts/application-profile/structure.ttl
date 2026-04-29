@@ -1,0 +1,36 @@
+@prefix : <https://example.com/profile/JAKL_CCMM_AP/#structure-model/application-profile/>.
+@prefix dsvs: <https://dataspecer.com/work-in-progress/>.
+@prefix kv: <https://dataspecer.com/work-in-progress/key-value/>.
+
+<https://example.com/profile/JAKL_CCMM_AP/#structure-model/application-profile/> a dsvs:structure-entity;
+    kv:dataPsmHumanDescription "{\"cs\":\"Datová struktura pro Application profile. A standard or other specification to which a metadata record conforms.\",\"en\":\"Data structure for Application profile. A standard or other specification to which a metadata record conforms.\"}";
+    kv:dataPsmHumanLabel "{\"cs\":\"Application profile\",\"en\":\"Application profile\"}";
+    kv:dataPsmParts "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/application-profile/class-1742235803801-3bb0-3064-a2dc\",\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/application-profile/attribute-1742339471390-57cb-8815-84ab\"]";
+    kv:dataPsmRoots "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/application-profile/class-1742235803801-3bb0-3064-a2dc\"]";
+    kv:dataPsmTechnicalLabel "null";
+    kv:extensions "{\"https://ofn.gov.cz/slovník/psm/extensions/xml\":{\"namespace\":\"https://schema.ccmm.cz/research-data/1.1\",\"namespacePrefix\":\"ccmm\"}}";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/application-profile/\"";
+    kv:jsonEnforceContext "\"no\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/application-profile\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Schema\"]".
+:class-1742235803801-3bb0-3064-a2dc a dsvs:structure-entity;
+    kv:dataPsmExtends "[]";
+    kv:dataPsmHumanDescription "null";
+    kv:dataPsmHumanLabel "null";
+    kv:dataPsmInterpretation "\"https://example.com/profile/JAKL_CCMM_AP#ApplicationProfile\"";
+    kv:dataPsmIsClosed "null";
+    kv:dataPsmParts "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/application-profile/attribute-1742339471390-57cb-8815-84ab\"]";
+    kv:dataPsmTechnicalLabel "\"application_profile\"";
+    kv:instancesHaveIdentity "\"ALWAYS\"";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/application-profile/class-1742235803801-3bb0-3064-a2dc\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/application-profile/class-1742235803801-3bb0-3064-a2dc\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Class\"]".
+:attribute-1742339471390-57cb-8815-84ab a dsvs:structure-entity;
+    kv:dataPsmDatatype "\"http://www.w3.org/1999/02/22-rdf-syntax-ns#langString\"";
+    kv:dataPsmHumanDescription "null";
+    kv:dataPsmHumanLabel "null";
+    kv:dataPsmInterpretation "\"https://model.ccmm.cz/research-data/ApplicationProfile.label\"";
+    kv:dataPsmTechnicalLabel "\"label\"";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/application-profile/attribute-1742339471390-57cb-8815-84ab\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/application-profile/attribute-1742339471390-57cb-8815-84ab\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Attribute\"]".

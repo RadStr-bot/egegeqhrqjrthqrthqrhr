@@ -1,0 +1,15 @@
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<9227ac3679680a636fdc5f4d2f0de81aprovenance_statementShape> a sh:NodeShape;
+    sh:targetClass <http://purl.org/dc/terms/ProvenanceStatement>;
+    sh:class <http://purl.org/dc/terms/ProvenanceStatement>;
+    sh:nodeKind sh:IRI;
+    sh:description "Information about entities, activities, and people involved in producing a piece of data or thing."@en;
+    sh:name "Provenance Statement"@en.
+<142f6b8e594730d49ca2894a14c3fb94labelShape> a sh:PropertyShape;
+    sh:description "Provenance state label."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<9227ac3679680a636fdc5f4d2f0de81aprovenance_statementShape> sh:property <142f6b8e594730d49ca2894a14c3fb94labelShape>.

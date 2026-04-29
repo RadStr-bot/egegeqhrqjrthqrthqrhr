@@ -1,0 +1,15 @@
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<fcfe954ce1b6f585e9d7282a1c7ebdc3checksum_algorithmShape> a sh:NodeShape;
+    sh:targetClass <http://spdx.org/rdf/terms#ChecksumAlgorithm>;
+    sh:class <http://spdx.org/rdf/terms#ChecksumAlgorithm>;
+    sh:nodeKind sh:IRI;
+    sh:description "Algorithm used for Checksums."@en;
+    sh:name "Checksum algorithm"@en.
+<4cc6980681d6487f66494bcb210f4b6blabelShape> a sh:PropertyShape;
+    sh:description "A human-readable name for the subject."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<fcfe954ce1b6f585e9d7282a1c7ebdc3checksum_algorithmShape> sh:property <4cc6980681d6487f66494bcb210f4b6blabelShape>.

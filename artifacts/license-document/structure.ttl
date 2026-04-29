@@ -1,0 +1,36 @@
+@prefix : <https://example.com/profile/JAKL_CCMM_AP/#structure-model/license-document/>.
+@prefix dsvs: <https://dataspecer.com/work-in-progress/>.
+@prefix kv: <https://dataspecer.com/work-in-progress/key-value/>.
+
+<https://example.com/profile/JAKL_CCMM_AP/#structure-model/license-document/> a dsvs:structure-entity;
+    kv:dataPsmHumanDescription "{\"en\":\"Data structure for License Document. A legal document giving official permission to do something with a resource.\",\"cs\":\"Datová struktura pro License Document. A legal document giving official permission to do something with a resource.\"}";
+    kv:dataPsmHumanLabel "{\"en\":\"License Document\",\"cs\":\"License Document\"}";
+    kv:dataPsmParts "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/license-document/class-1747640270910-1022-e495-9645\",\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/license-document/attribute-1747640274972-0915-2fc8-b8d3\"]";
+    kv:dataPsmRoots "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/license-document/class-1747640270910-1022-e495-9645\"]";
+    kv:dataPsmTechnicalLabel "null";
+    kv:extensions "{\"https://ofn.gov.cz/slovník/psm/extensions/xml\":{\"namespace\":\"https://schema.ccmm.cz/research-data/1.1\",\"namespacePrefix\":\"ccmm\"}}";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/license-document/\"";
+    kv:jsonEnforceContext "\"no\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/license-document\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Schema\"]".
+:class-1747640270910-1022-e495-9645 a dsvs:structure-entity;
+    kv:dataPsmExtends "[]";
+    kv:dataPsmHumanDescription "null";
+    kv:dataPsmHumanLabel "null";
+    kv:dataPsmInterpretation "\"https://example.com/profile/JAKL_CCMM_AP#LicenseDocument\"";
+    kv:dataPsmIsClosed "null";
+    kv:dataPsmParts "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/license-document/attribute-1747640274972-0915-2fc8-b8d3\"]";
+    kv:dataPsmTechnicalLabel "\"license_document\"";
+    kv:instancesHaveIdentity "\"OPTIONAL\"";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/license-document/class-1747640270910-1022-e495-9645\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/license-document/class-1747640270910-1022-e495-9645\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Class\"]".
+:attribute-1747640274972-0915-2fc8-b8d3 a dsvs:structure-entity;
+    kv:dataPsmDatatype "\"http://www.w3.org/1999/02/22-rdf-syntax-ns#langString\"";
+    kv:dataPsmHumanDescription "null";
+    kv:dataPsmHumanLabel "null";
+    kv:dataPsmInterpretation "\"https://model.ccmm.cz/research-data/LicenseDocument.label\"";
+    kv:dataPsmTechnicalLabel "\"label\"";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/license-document/attribute-1747640274972-0915-2fc8-b8d3\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/license-document/attribute-1747640274972-0915-2fc8-b8d3\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Attribute\"]".

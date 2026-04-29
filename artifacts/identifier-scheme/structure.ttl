@@ -1,0 +1,36 @@
+@prefix : <https://example.com/profile/JAKL_CCMM_AP/#structure-model/identifier-scheme/>.
+@prefix dsvs: <https://dataspecer.com/work-in-progress/>.
+@prefix kv: <https://dataspecer.com/work-in-progress/key-value/>.
+
+<https://example.com/profile/JAKL_CCMM_AP/#structure-model/identifier-scheme/> a dsvs:structure-entity;
+    kv:dataPsmHumanDescription "{\"en\":\"Data structure for Identifier scheme. Scheme in which is the identifier value unique, usually representing some authority. Identifier scheme shall always be represented as IRI identifier.\",\"cs\":\"Datová struktura pro Identifier scheme. Scheme in which is the identifier value unique, usually representing some authority. Identifier scheme shall always be represented as IRI identifier.\"}";
+    kv:dataPsmHumanLabel "{\"en\":\"Identifier scheme\",\"cs\":\"Identifier scheme\"}";
+    kv:dataPsmParts "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/identifier-scheme/class-1747731818380-b829-3f11-a2f1\",\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/identifier-scheme/attribute-1747731822119-eeb8-b5f3-a985\"]";
+    kv:dataPsmRoots "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/identifier-scheme/class-1747731818380-b829-3f11-a2f1\"]";
+    kv:dataPsmTechnicalLabel "null";
+    kv:extensions "{\"https://ofn.gov.cz/slovník/psm/extensions/xml\":{\"namespace\":\"https://schema.ccmm.cz/research-data/1.1\",\"namespacePrefix\":\"ccmm\"}}";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/identifier-scheme/\"";
+    kv:jsonEnforceContext "\"no\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/identifier-scheme\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Schema\"]".
+:class-1747731818380-b829-3f11-a2f1 a dsvs:structure-entity;
+    kv:dataPsmExtends "[]";
+    kv:dataPsmHumanDescription "null";
+    kv:dataPsmHumanLabel "null";
+    kv:dataPsmInterpretation "\"https://example.com/profile/JAKL_CCMM_AP#IdentifierScheme\"";
+    kv:dataPsmIsClosed "null";
+    kv:dataPsmParts "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/identifier-scheme/attribute-1747731822119-eeb8-b5f3-a985\"]";
+    kv:dataPsmTechnicalLabel "\"identifier_scheme\"";
+    kv:instancesHaveIdentity "\"ALWAYS\"";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/identifier-scheme/class-1747731818380-b829-3f11-a2f1\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/identifier-scheme/class-1747731818380-b829-3f11-a2f1\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Class\"]".
+:attribute-1747731822119-eeb8-b5f3-a985 a dsvs:structure-entity;
+    kv:dataPsmDatatype "\"http://www.w3.org/1999/02/22-rdf-syntax-ns#langString\"";
+    kv:dataPsmHumanDescription "null";
+    kv:dataPsmHumanLabel "null";
+    kv:dataPsmInterpretation "\"https://model.ccmm.cz/research-data/IdentifierScheme.label\"";
+    kv:dataPsmTechnicalLabel "\"label\"";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/identifier-scheme/attribute-1747731822119-eeb8-b5f3-a985\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/identifier-scheme/attribute-1747731822119-eeb8-b5f3-a985\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Attribute\"]".

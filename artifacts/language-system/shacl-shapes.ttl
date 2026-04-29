@@ -1,0 +1,15 @@
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<0fde6ec94d8ebfd388d835f27d4b6484language_systemShape> a sh:NodeShape;
+    sh:targetClass <http://purl.org/dc/terms/LinguisticSystem>;
+    sh:class <http://purl.org/dc/terms/LinguisticSystem>;
+    sh:nodeKind sh:IRI;
+    sh:description "A system of signs, symbols, sounds, gestures, or rules used in communication, e.g. a language."@en;
+    sh:name "Language system"@en.
+<c3cfdbe7269745b1167aa96f54752c37labelShape> a sh:PropertyShape;
+    sh:description "Language label"@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<0fde6ec94d8ebfd388d835f27d4b6484language_systemShape> sh:property <c3cfdbe7269745b1167aa96f54752c37labelShape>.

@@ -1,0 +1,9 @@
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+<9227ac3679680a636fdc5f4d2f0de81aprovenance_statementShExShape> IRI{
+	a [<http://purl.org/dc/terms/ProvenanceStatement>] ;
+	rdfs:label rdf:langString *
+		// rdfs:label	"label"
+		// rdfs:comment	"Provenance state label."
+}

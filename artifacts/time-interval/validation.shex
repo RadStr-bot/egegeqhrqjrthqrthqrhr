@@ -1,0 +1,21 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<2a94d88a63985c1bd5dd8459da37d19bShExShape> IRI{
+	a [<null>] ;
+	<http://www.w3.org/2006/time#inXSDDateTime> xsd:dateTime ;
+	<http://www.w3.org/2006/time#inXSDDate> xsd:date
+}
+<86361b29e6bd88aa50ea2841449410e5time_instantShExShape> IRI{
+	a [<http://www.w3.org/2006/time#Instant>] ;
+	<null> @<2a94d88a63985c1bd5dd8459da37d19bShExShape>
+}
+<8aadf9b4787f3b5c0905eac254ba76fatime_intervalShExShape> IRI{
+	a [<http://www.w3.org/2006/time#Interval>] ;
+	<http://www.w3.org/2006/time#hasBeginning> @<86361b29e6bd88aa50ea2841449410e5time_instantShExShape>
+		// rdfs:label	"has beginning"
+		// rdfs:comment	"Time instant representing the beginning of a temporal interval." ;
+	<http://www.w3.org/2006/time#hasEnd> @<86361b29e6bd88aa50ea2841449410e5time_instantShExShape>
+		// rdfs:label	"has end"
+		// rdfs:comment	"Time instant representing the end of a temporal interval."
+}

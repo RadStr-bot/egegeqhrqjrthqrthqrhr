@@ -1,0 +1,9 @@
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+<90a5998d2fa18a6b7873059e54c0e7bcsubject_schemeShExShape> IRI{
+	a [<https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme>] ;
+	rdfs:label rdf:langString *
+		// rdfs:label	"label"
+		// rdfs:comment	"Label of the subject scheme."
+}

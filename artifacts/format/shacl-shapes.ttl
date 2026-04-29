@@ -1,0 +1,15 @@
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<ae5bddca5481b23f0b594f2183b75c3cformatShape> a sh:NodeShape;
+    sh:targetClass <http://purl.org/dc/terms/MediaTypeOrExtent>;
+    sh:class <http://purl.org/dc/terms/MediaTypeOrExtent>;
+    sh:nodeKind sh:IRI;
+    sh:description "Format of downloadable file."@en;
+    sh:name "Format"@en.
+<c1020b628bf2279fe2af3e31352d68fclabelShape> a sh:PropertyShape;
+    sh:description "Label of format value."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<ae5bddca5481b23f0b594f2183b75c3cformatShape> sh:property <c1020b628bf2279fe2af3e31352d68fclabelShape>.

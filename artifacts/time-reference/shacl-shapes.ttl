@@ -1,0 +1,100 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<b5b1fa4b1c2d1a71d4bf5e25be842343time_referenceShape> a sh:NodeShape;
+    sh:targetClass <https://model.ccmm.cz/vocabulary/ccmm#TimeReference>;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#TimeReference>;
+    sh:nodeKind sh:IRI;
+    sh:description "An object representing time reference relevant to some event related to the resource has happened."@en;
+    sh:name "Time reference"@en.
+<f28b436f7cc500bb5dc64b5f9b1f4efdtemporal_representationShape> a sh:PropertyShape;
+    sh:name "has temporal representation"@en;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <null>;
+    sh:nodeKind sh:IRI.
+<8aadf9b4787f3b5c0905eac254ba76fatime_intervalShape> a sh:NodeShape;
+    sh:targetClass <http://www.w3.org/2006/time#Interval>;
+    sh:class <http://www.w3.org/2006/time#Interval>;
+    sh:nodeKind sh:IRI;
+    sh:description "A temporal entity with an extent or duration"@en, "Una entidad temporal con una extensión o duración."@es;
+    sh:name "Time interval"@en, "intervalo de tiempo"@es.
+<873127418719720e112ab9478f4348d1beginningShape> a sh:PropertyShape;
+    sh:description "Time instant representing the beginning of a temporal interval."@en, "Comienzo de una entidad temporal."@es;
+    sh:name "has beginning"@en, "tiene principio"@es;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <http://www.w3.org/2006/time#hasBeginning>;
+    sh:nodeKind sh:IRI.
+<86361b29e6bd88aa50ea2841449410e5time_instantShape> a sh:NodeShape;
+    sh:class <http://www.w3.org/2006/time#Instant>;
+    sh:nodeKind sh:IRI;
+    sh:description "A temporal entity with zero extent or duration."@en, "Una entidad temporal con una extensión o duración cero."@es;
+    sh:name "Time instant"@en, "instante de tiempo."@es.
+<2a94d88a63985c1bd5dd8459da37d19bShape> a sh:PropertyShape;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <null>;
+    sh:nodeKind sh:IRI;
+    a sh:NodeShape;
+    sh:targetClass <null>;
+    sh:class <null>;
+    sh:nodeKind sh:IRI.
+<e82dabfe952021a686e0e23e05068defdate_timeShape> a sh:PropertyShape;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <http://www.w3.org/2006/time#inXSDDateTime>.
+
+<e82dabfe952021a686e0e23e05068defdate_timeShape> sh:datatype xsd:dateTime.
+<2a94d88a63985c1bd5dd8459da37d19bShape> sh:property <e82dabfe952021a686e0e23e05068defdate_timeShape>.
+<e199f7d9a28f6ce2fd661a99af5e8000dateShape> a sh:PropertyShape;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <http://www.w3.org/2006/time#inXSDDate>;
+    sh:datatype xsd:date.
+<2a94d88a63985c1bd5dd8459da37d19bShape> sh:property <e199f7d9a28f6ce2fd661a99af5e8000dateShape>;
+    sh:node <2a94d88a63985c1bd5dd8459da37d19bShape>.
+<86361b29e6bd88aa50ea2841449410e5time_instantShape> sh:property <2a94d88a63985c1bd5dd8459da37d19bShape>.
+<873127418719720e112ab9478f4348d1beginningShape> sh:node <86361b29e6bd88aa50ea2841449410e5time_instantShape>.
+<8aadf9b4787f3b5c0905eac254ba76fatime_intervalShape> sh:property <873127418719720e112ab9478f4348d1beginningShape>.
+<fa05fa00571127861a7b18cedd831928endShape> a sh:PropertyShape;
+    sh:description "Time instant representing the end of a temporal interval."@en, "Final de una entidad temporal."@es;
+    sh:name "has end"@en, "tiene fin"@es;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <http://www.w3.org/2006/time#hasEnd>;
+    sh:nodeKind sh:IRI;
+    sh:node <86361b29e6bd88aa50ea2841449410e5time_instantShape>.
+<8aadf9b4787f3b5c0905eac254ba76fatime_intervalShape> sh:property <fa05fa00571127861a7b18cedd831928endShape>.
+<f28b436f7cc500bb5dc64b5f9b1f4efdtemporal_representationShape> sh:node <8aadf9b4787f3b5c0905eac254ba76fatime_intervalShape>;
+    sh:nodeKind sh:IRI;
+    sh:node <86361b29e6bd88aa50ea2841449410e5time_instantShape>.
+<b5b1fa4b1c2d1a71d4bf5e25be842343time_referenceShape> sh:property <f28b436f7cc500bb5dc64b5f9b1f4efdtemporal_representationShape>.
+<221e82d9ff467a1f5f1c5f8413752ce5date_typeShape> a sh:PropertyShape;
+    sh:description "Reference to the codelist of date types."@en;
+    sh:name "has date type"@en;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasType>;
+    sh:nodeKind sh:IRI.
+<cd487b91c290f904a9765180524b5296date_typeShape> a sh:NodeShape;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>;
+    sh:nodeKind sh:IRI;
+    sh:description "Type of a date in relation to the resource."@en;
+    sh:name "Date type"@en.
+<affa428fa593d233d503aa4887e29115labelShape> a sh:PropertyShape;
+    sh:description "Date type label."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<cd487b91c290f904a9765180524b5296date_typeShape> sh:property <affa428fa593d233d503aa4887e29115labelShape>.
+<221e82d9ff467a1f5f1c5f8413752ce5date_typeShape> sh:node <cd487b91c290f904a9765180524b5296date_typeShape>.
+<b5b1fa4b1c2d1a71d4bf5e25be842343time_referenceShape> sh:property <221e82d9ff467a1f5f1c5f8413752ce5date_typeShape>.
+<d637927d83724665b164064871a98e00date_informationShape> a sh:PropertyShape;
+    sh:description "Additional information to the date in text form."@en;
+    sh:name "date information"@en;
+    sh:maxCount 1;
+    sh:path <https://model.ccmm.cz/vocabulary/datacite#dateInformation>;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<b5b1fa4b1c2d1a71d4bf5e25be842343time_referenceShape> sh:property <d637927d83724665b164064871a98e00date_informationShape>.

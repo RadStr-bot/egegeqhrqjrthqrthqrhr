@@ -1,0 +1,36 @@
+@prefix : <https://example.com/profile/JAKL_CCMM_AP/#structure-model/format/>.
+@prefix dsvs: <https://dataspecer.com/work-in-progress/>.
+@prefix kv: <https://dataspecer.com/work-in-progress/key-value/>.
+
+<https://example.com/profile/JAKL_CCMM_AP/#structure-model/format/> a dsvs:structure-entity;
+    kv:dataPsmHumanDescription "{\"en\":\"Data structure for Format. Format of downloadable file.\",\"cs\":\"Datová struktura pro Format. Format of downloadable file.\"}";
+    kv:dataPsmHumanLabel "{\"en\":\"Format\",\"cs\":\"Format\"}";
+    kv:dataPsmParts "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/format/class-1747685284971-4e81-5f45-a58b\",\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/format/attribute-1747685288536-30aa-4970-a045\"]";
+    kv:dataPsmRoots "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/format/class-1747685284971-4e81-5f45-a58b\"]";
+    kv:dataPsmTechnicalLabel "null";
+    kv:extensions "{\"https://ofn.gov.cz/slovník/psm/extensions/xml\":{\"namespace\":\"https://schema.ccmm.cz/research-data/1.1\",\"namespacePrefix\":\"ccmm\"}}";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/format/\"";
+    kv:jsonEnforceContext "\"no\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/format\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Schema\"]".
+:class-1747685284971-4e81-5f45-a58b a dsvs:structure-entity;
+    kv:dataPsmExtends "[]";
+    kv:dataPsmHumanDescription "null";
+    kv:dataPsmHumanLabel "null";
+    kv:dataPsmInterpretation "\"https://example.com/profile/JAKL_CCMM_AP#Format\"";
+    kv:dataPsmIsClosed "null";
+    kv:dataPsmParts "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/format/attribute-1747685288536-30aa-4970-a045\"]";
+    kv:dataPsmTechnicalLabel "\"format\"";
+    kv:instancesHaveIdentity "\"ALWAYS\"";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/format/class-1747685284971-4e81-5f45-a58b\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/format/class-1747685284971-4e81-5f45-a58b\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Class\"]".
+:attribute-1747685288536-30aa-4970-a045 a dsvs:structure-entity;
+    kv:dataPsmDatatype "\"http://www.w3.org/1999/02/22-rdf-syntax-ns#langString\"";
+    kv:dataPsmHumanDescription "null";
+    kv:dataPsmHumanLabel "null";
+    kv:dataPsmInterpretation "\"https://model.ccmm.cz/research-data/Format.label\"";
+    kv:dataPsmTechnicalLabel "\"label\"";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/format/attribute-1747685288536-30aa-4970-a045\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/format/attribute-1747685288536-30aa-4970-a045\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Attribute\"]".

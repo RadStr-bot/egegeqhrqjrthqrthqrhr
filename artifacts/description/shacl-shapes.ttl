@@ -1,0 +1,36 @@
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<15fc8dd2d4739dcca02a2d96786a8febdescriptionShape> a sh:NodeShape;
+    sh:targetClass <https://model.ccmm.cz/vocabulary/datacite#Description>;
+    sh:class <https://model.ccmm.cz/vocabulary/datacite#Description>;
+    sh:nodeKind sh:IRI;
+    sh:description "All additional information that does not fit in any of the other categories. May be used for technical information or detailed information associated with a scientific instrument."@en;
+    sh:name "Description"@en.
+<324138d353a0a5184334cee78635a034description_textShape> a sh:PropertyShape;
+    sh:description "Text describing the resource."@en;
+    sh:name "description text"@en;
+    sh:minCount 1;
+    sh:maxCount 1;
+    sh:path <https://model.ccmm.cz/vocabulary/datacite#descriptionText>;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<15fc8dd2d4739dcca02a2d96786a8febdescriptionShape> sh:property <324138d353a0a5184334cee78635a034description_textShape>.
+<69e9905229aedb09d47f0f96172b5d15description_typeShape> a sh:PropertyShape;
+    sh:description "Relation to the type of the description."@en;
+    sh:name "has description type"@en;
+    sh:maxCount 1;
+    sh:path <https://model.ccmm.cz/vocabulary/datacite#hasDescriptionType>;
+    sh:nodeKind sh:IRI.
+<4cf1c079afd308ac411e316adb29e6bbdescription_typeShape> a sh:NodeShape;
+    sh:class <https://model.ccmm.cz/vocabulary/datacite#DescriptionType>;
+    sh:nodeKind sh:IRI;
+    sh:description "The type of the description."@en;
+    sh:name "Description type"@en.
+<d4fda3507f897d58f545c7b33bc2690flabelShape> a sh:PropertyShape;
+    sh:description "Label of the description type."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<4cf1c079afd308ac411e316adb29e6bbdescription_typeShape> sh:property <d4fda3507f897d58f545c7b33bc2690flabelShape>.
+<69e9905229aedb09d47f0f96172b5d15description_typeShape> sh:node <4cf1c079afd308ac411e316adb29e6bbdescription_typeShape>.
+<15fc8dd2d4739dcca02a2d96786a8febdescriptionShape> sh:property <69e9905229aedb09d47f0f96172b5d15description_typeShape>.

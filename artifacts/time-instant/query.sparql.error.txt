@@ -1,0 +1,13 @@
+Cannot read properties of null (reading 'match')
+
+TypeError: Cannot read properties of null (reading 'match')
+    at namespaceFromIri (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/xml/src/conventions.ts:71:21)
+    at SparqlAdapter.nodeFromIri (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/sparql-query/src/sparql-model-adapter.ts:113:19)
+    at SparqlAdapter.propertyToTriples (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/sparql-query/src/sparql-model-adapter.ts:191:23)
+    at SparqlAdapter.classToTriples (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/sparql-query/src/sparql-model-adapter.ts:164:12)
+    at SparqlAdapter.fromRoots (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/sparql-query/src/sparql-model-adapter.ts:82:12)
+    at structureModelToSparql (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/sparql-query/src/sparql-model-adapter.ts:41:18)
+    at SparqlGenerator.generateToObject (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/sparql-query/src/sparql-generator.ts:69:7)
+    at SparqlGenerator.generateToStream (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/sparql-query/src/sparql-generator.ts:27:30)
+    at Generator.generateArtefact (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/core/src/generator/generator.ts:82:21)
+    at async DefaultArtifactBuilder.writeArtifacts (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/specification/src/v1/default-artifact-builder.ts:137:21)

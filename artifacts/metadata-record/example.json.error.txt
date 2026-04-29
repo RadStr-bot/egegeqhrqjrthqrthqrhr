@@ -1,0 +1,13 @@
+Cannot read properties of null (reading 'startsWith')
+
+TypeError: Cannot read properties of null (reading 'startsWith')
+    at <anonymous> (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/json/src/json-ld/json-ld-adapter.ts:24:26)
+    at Array.find (<anonymous>)
+    at tryPrefix (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/json/src/json-ld/json-ld-adapter.ts:24:5)
+    at JsonLdAdapter.generatePropertyContext (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/json/src/json-ld/json-ld-adapter.ts:137:30)
+    at JsonLdAdapter.generateClassesContext (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/json/src/json-ld/json-ld-adapter.ts:297:14)
+    at JsonLdAdapter.generate (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/json/src/json-ld/json-ld-adapter.ts:110:29)
+    at JsonLdGenerator.generateToObject (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/json/src/json-ld/json-ld-generator.ts:70:20)
+    at JsonLdGenerator.generateToStream (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/json/src/json-ld/json-ld-generator.ts:24:30)
+    at JsonExampleGenerator.generateToObject (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/json-example/src/json-example-generator.ts:53:35)
+    at JsonExampleGenerator.generateToStream (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/json-example/src/json-example-generator.ts:91:38)

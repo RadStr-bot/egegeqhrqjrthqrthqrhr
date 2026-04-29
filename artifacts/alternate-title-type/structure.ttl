@@ -1,0 +1,36 @@
+@prefix : <https://example.com/profile/JAKL_CCMM_AP/#structure-model/alternate-title-type/>.
+@prefix dsvs: <https://dataspecer.com/work-in-progress/>.
+@prefix kv: <https://dataspecer.com/work-in-progress/key-value/>.
+
+<https://example.com/profile/JAKL_CCMM_AP/#structure-model/alternate-title-type/> a dsvs:structure-entity;
+    kv:dataPsmHumanDescription "{\"en\":\"Data structure for Alternate title type. Type of alternate title.\",\"cs\":\"Datová struktura pro Alternate title type. Type of alternate title.\"}";
+    kv:dataPsmHumanLabel "{\"en\":\"Alternate title type\",\"cs\":\"Alternate title type\"}";
+    kv:dataPsmParts "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/alternate-title-type/class-1747685369782-00bf-3a68-ae58\",\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/alternate-title-type/attribute-1747685374451-9e56-3fb3-8eb5\"]";
+    kv:dataPsmRoots "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/alternate-title-type/class-1747685369782-00bf-3a68-ae58\"]";
+    kv:dataPsmTechnicalLabel "null";
+    kv:extensions "{\"https://ofn.gov.cz/slovník/psm/extensions/xml\":{\"namespace\":\"https://schema.ccmm.cz/research-data/1.1\",\"namespacePrefix\":\"ccmm\"}}";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/alternate-title-type/\"";
+    kv:jsonEnforceContext "\"no\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/alternate-title-type\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Schema\"]".
+:class-1747685369782-00bf-3a68-ae58 a dsvs:structure-entity;
+    kv:dataPsmExtends "[]";
+    kv:dataPsmHumanDescription "null";
+    kv:dataPsmHumanLabel "null";
+    kv:dataPsmInterpretation "\"https://example.com/profile/JAKL_CCMM_AP#AlternateTitleType\"";
+    kv:dataPsmIsClosed "null";
+    kv:dataPsmParts "[\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/alternate-title-type/attribute-1747685374451-9e56-3fb3-8eb5\"]";
+    kv:dataPsmTechnicalLabel "\"alternate_title_type\"";
+    kv:instancesHaveIdentity "\"ALWAYS\"";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/alternate-title-type/class-1747685369782-00bf-3a68-ae58\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/alternate-title-type/class-1747685369782-00bf-3a68-ae58\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Class\"]".
+:attribute-1747685374451-9e56-3fb3-8eb5 a dsvs:structure-entity;
+    kv:dataPsmDatatype "\"http://www.w3.org/1999/02/22-rdf-syntax-ns#langString\"";
+    kv:dataPsmHumanDescription "null";
+    kv:dataPsmHumanLabel "null";
+    kv:dataPsmInterpretation "\"https://model.ccmm.cz/research-data/AlternateTitleType.label\"";
+    kv:dataPsmTechnicalLabel "\"label\"";
+    kv:iri "\"https://example.com/profile/JAKL_CCMM_AP/#structure-model/alternate-title-type/attribute-1747685374451-9e56-3fb3-8eb5\"";
+    kv:profiling "[\"http://dataspecer.com/packages/local-root/89b2ea00-0776-4fbf-b220-61f911e44b72/b7fc699e-5300-4b77-8104-9b36b781cfdf/alternate-title-type/attribute-1747685374451-9e56-3fb3-8eb5\"]";
+    kv:types "[\"https://ofn.gov.cz/slovník/psm/Attribute\"]".

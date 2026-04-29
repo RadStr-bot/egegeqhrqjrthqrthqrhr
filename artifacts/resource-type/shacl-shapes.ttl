@@ -1,0 +1,15 @@
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<a6f2f22f499dc324b97d113ea86a5b94resource_typeShape> a sh:NodeShape;
+    sh:targetClass <http://www.w3.org/2004/02/skos/core#Concept>;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>;
+    sh:nodeKind sh:IRI;
+    sh:description "Type of the resource."@en;
+    sh:name "Resource type"@en.
+<5d60153c3c8efd98d9da0530ec42c37dlabelShape> a sh:PropertyShape;
+    sh:description "Label of the resource type."@en;
+    sh:name "label"@en;
+    sh:path rdfs:label;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.
+<a6f2f22f499dc324b97d113ea86a5b94resource_typeShape> sh:property <5d60153c3c8efd98d9da0530ec42c37dlabelShape>.

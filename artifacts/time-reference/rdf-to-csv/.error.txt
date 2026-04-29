@@ -1,0 +1,13 @@
+Cannot read properties of null (reading 'length')
+
+TypeError: Cannot read properties of null (reading 'length')
+    at splitIri (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/csv/src/rdf-to-csv/rdf-to-csv-query-builder.ts:317:33)
+    at nodeFromIri (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/csv/src/rdf-to-csv/rdf-to-csv-query-builder.ts:303:26)
+    at makeTypeTriple (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/csv/src/rdf-to-csv/rdf-to-csv-query-builder.ts:148:25)
+    at buildSingleQueryRecursive (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/csv/src/rdf-to-csv/rdf-to-csv-query-builder.ts:241:25)
+    at buildSingleQueryRecursive (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/csv/src/rdf-to-csv/rdf-to-csv-query-builder.ts:260:37)
+    at buildSingleQueryRecursive (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/csv/src/rdf-to-csv/rdf-to-csv-query-builder.ts:260:37)
+    at buildSingleQueryRecursive (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/csv/src/rdf-to-csv/rdf-to-csv-query-builder.ts:260:37)
+    at buildSingleTableQuery (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/csv/src/rdf-to-csv/rdf-to-csv-query-builder.ts:218:5)
+    at RdfToCsvGenerator.generateToObject (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/csv/src/rdf-to-csv/rdf-to-csv-generator.ts:86:21)
+    at RdfToCsvGenerator.generateToStream (/home/runner/work/egegeqhrqjrthqrthqrhr/egegeqhrqjrthqrthqrhr/dataspecer-source-code/packages/csv/src/rdf-to-csv/rdf-to-csv-generator.ts:43:35)

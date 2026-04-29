@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" elementFormDefault="qualified" targetNamespace="https://schema.novyprofil.cz/2.0" xmlns:ccmm-ap="https://schema.novyprofil.cz/2.0" xmlns:sawsdl="http://www.w3.org/ns/sawsdl" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+  <xs:element name="additional_publication_year" type="xs:gYear" sawsdl:modelReference="https://model.ccmm.cz/vocabulary/datacite#relatedItemPublicationYear">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        publication year - The year when the item was or will be made publicly available.
+        If TimeReference with dateType &#34;Issued&#34; is present, year in that date and publicationYear must be the same“
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>
